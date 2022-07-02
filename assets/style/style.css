@@ -14,5 +14,11 @@
 .list__item::before {
     content:  "—";
 }
+
+.main__img-fluid {
+    background: url(assets/img/mainTextBackground.svg);
+    width: 99%;
+    height: 70%;
+}
 /* 
 Катя конец */
