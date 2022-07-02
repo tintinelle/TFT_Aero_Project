@@ -3,6 +3,7 @@
 .card_fly-program {
     width: 70%;
 }
+
 /* 
 Ильвина конец */
 
@@ -12,7 +13,7 @@
 }
 
 .list__item::before {
-    content:  "—";
+    content: "—";
 }
 
 .main__img-fluid {
@@ -20,5 +21,46 @@
     width: 99%;
     height: 70%;
 }
+
 /* 
 Катя конец */
+
+
+
+/* Ирина начало */
+.all__instructors {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.item__instructor {
+    background-color: #6777FF;
+    margin: 0px 15px 0px 15px;
+    border-radius: 20px;
+    height: 390px;
+}
+
+.item__instructor a {
+    color: white;
+}
+
+.container__instructor {
+    display: flex;
+    justify-content: center;
+}
+
+.name__instructor {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.description__instructor {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.name__instructor,
+.description__instructor {
+    margin-left: 20px;
+}
