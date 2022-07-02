@@ -1,3 +1,39 @@
+/* Саша начало */
+.header {
+    background-color: #6777FF;
+
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 196px;
+}
+.nav__logo {
+    margin-right: 37px;
+}
+.nav__menu {
+    color: white;
+    text-decoration: none;
+    margin-right: 31px;
+}
+.nav__phone {
+    margin-left: 217px;
+}
+.subtitle__simulator {
+    font-size: 3em;
+}
+.main__simulator {
+    text-align: center;
+    background-image: url('../img/paint.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 227px;
+    margin-top: 197px;
+    margin-bottom: 218px;
+}
+/* Саша конец */
+
 /* Ильвина начало */
 
 .card_fly-program {
