@@ -5,3 +5,14 @@
 }
 /* 
 Ильвина конец */
+
+/* Катя начало */
+.main__list {
+    list-style-type: none;
+}
+
+.list__item::before {
+    content:  "—";
+}
+/* 
+Катя конец */
