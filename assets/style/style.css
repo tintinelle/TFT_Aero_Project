@@ -46,6 +46,21 @@
     width: 70%;
 }
 
+.main__section_certificate {
+    background-image: url(../img/background_certificate.svg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    min-height: 50rem;
+}
+
+.main__table {
+    background-color: #E5E5E5;
+}
+
+.table__header {
+    background-color: #6777FF;
+}
+
 /* 
 Ильвина конец */
 
