@@ -73,10 +73,18 @@
     content: "—";
 }
 
-.main__img-fluid {
-    background: url(assets/img/mainTextBackground.svg);
-    width: 99%;
-    height: 70%;
+
+.main__content {
+    text-align: center;
+    background-image: url('../img/mainTextBackground.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 40rem;
+}
+
+.card_feedback {
+    background-color: rgba(229, 229, 229, 1);
+    border-radius: 1em;
 }
 
 /* 
