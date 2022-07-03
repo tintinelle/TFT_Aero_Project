@@ -4,8 +4,8 @@
 
 }
 .nav {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
     align-items: center;
     min-height: 196px;
 }
@@ -18,7 +18,7 @@
     margin-right: 31px;
 }
 .nav__phone {
-    margin-left: 217px;
+    
 }
 .subtitle__simulator {
     font-size: 3em;
@@ -31,6 +31,12 @@
     min-height: 227px;
     margin-top: 197px;
     margin-bottom: 218px;
+}
+.main__img_trainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
 }
 /* Саша конец */
 
