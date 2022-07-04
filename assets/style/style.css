@@ -87,6 +87,16 @@
     border-radius: 1em;
 }
 
+.container__plane {
+    display: flex;
+    flex-direction: inline-block;
+}
+
+.img-boeing {
+    padding-right: 5%;
+}
+
+
 /* 
 Катя конец */
 
