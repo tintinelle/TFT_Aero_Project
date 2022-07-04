@@ -65,21 +65,13 @@
 Ильвина конец */
 
 /* Катя начало */
-.main__list {
-    list-style-type: none;
-}
-
-.list__item::before {
-    content: "—";
-}
-
 
 .main__content {
     text-align: center;
     background-image: url('../img/mainTextBackground.svg');
     background-size: 100%;
     background-repeat: no-repeat;
-    min-height: 40rem;
+    min-height: 20rem;
 }
 
 .card_feedback {
@@ -90,10 +82,43 @@
 .container__plane {
     display: flex;
     flex-direction: inline-block;
+    justify-content: center;
 }
 
 .img-boeing {
     padding-right: 5%;
+}
+
+.main__list {
+    list-style-type: none;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main__list_boeing {
+    flex-direction: column;
+    justify-content: start;
+    padding-bottom: 20%;
+}
+
+.main__list_airbus {
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 20%;
+    text-align: end;
+}
+
+.list__item_boeing::before {
+    content: url('../img/dashPlane.svg');
+}
+
+.list__item_airbus::after {
+    content: url('../img/dashPlane.svg');
+}
+
+.list__item_airbus,
+.list__item_boeing {
+    margin: 1em;
 }
 
 
