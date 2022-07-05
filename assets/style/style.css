@@ -147,6 +147,14 @@
     margin: 1em;
 }
 
+.card_feedback {
+    height: 100%;
+}
+
+.page-item {
+    padding: 7px;
+    font-size: 2em;
+}
 
 /* 
 Катя конец */
