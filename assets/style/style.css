@@ -152,6 +152,18 @@
 
 /* Катя начало */
 
+
+.main__subtitle,
+.main__subtitle_plane {
+    font-family: 'Acrom';
+    font-weight: 700;
+    font-size: 2.3em;
+
+    text-transform: uppercase;
+
+    color: #03008D;
+}
+
 .main__content {
     text-align: center;
     background-image: url('../img/mainTextBackground.svg');
