@@ -8,7 +8,6 @@
     background-position: center;
     background-repeat: no-repeat;
     min-height: 227px;
-    margin-top: 197px;
     margin-bottom: 218px;
 }
 .main__img_trainer {
@@ -33,6 +32,7 @@
     position: relative;
         top: -240px;
 }
+
 .header {
     background-color: #6777FF;
     position: relative;
