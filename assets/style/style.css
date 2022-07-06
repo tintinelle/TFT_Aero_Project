@@ -1,11 +1,54 @@
 /* Саша начало */
+.subtitle__simulator {
+    font-size: 3em;
+}
+.main__simulator {
+    text-align: center;
+    background-image: url('../img/paint.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 227px;
+    margin-bottom: 218px;
+}
+.main__img_trainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.main__section_boeing {
+    position: relative;
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    grid-template-rows: 1fr;
+    min-height: 943px;
+}
+.main__textblock {
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.main__photoblock {
+    background-image: url('../img/man-background.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+        top: -185px;
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+        z-index: 1;
+}
+
 .header {
     background-color: #6777FF;
-
+    position: relative;
+    z-index: 2;
 }
+
 .nav {
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    display: flex;
+    justify-content: center;
+    /* display: grid;
+    grid-template-columns: repeat(8, 1fr); */
     align-items: center;
     min-height: 196px;
 }
@@ -16,27 +59,21 @@
     color: white;
     text-decoration: none;
     margin-right: 31px;
+    font-size: 0.8em;
+    margin-left: 10px;
 }
 .nav__phone {
-    
+    margin-left: 100px;
 }
-.subtitle__simulator {
-    font-size: 3em;
-}
-.main__simulator {
-    text-align: center;
-    background-image: url('../img/paint.png');
-    background-position: center;
+.main__photoblock_layer {
+    background-image: url(../img/man-layer.png);
+    background-size: 97%;
     background-repeat: no-repeat;
-    min-height: 227px;
-    margin-top: 197px;
-    margin-bottom: 218px;
-}
-.main__img_trainer {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
+    position: relative;
+        top: -65px;
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+        z-index: 3;
 }
 /* Саша конец */
 
@@ -46,15 +83,38 @@
     border: 1px solid salmon;
 } */
 
+/* @font-face {
+    font-family: "LiquidCrystalDisplay";
+    src: url("../fonts/liquidcrystaldisplay.ttf");
+    font-weight: 400;
+} */
+
+@font-face {
+    font-family: "Acrom";
+    src: url("../fonts/Acrom-Bold.woff");
+    font-style: normal;
+    font-weight: 700;
+}
+
+.main__subtitle_fly-program {
+    font-family: 'Acrom';
+    font-weight: 700;
+    font-size: 2.3em;
+
+    text-transform: uppercase;
+
+    color: #03008D;
+}
+
 .card_fly-program {
     width: 70%;
 }
 
 .main__section_certificate {
     background: url(../img/dad_son_background.svg) left 20% top 5% / 38% no-repeat,
-    url(../img/cloud_left.svg) left 12% center / 14% no-repeat,
-    url(../img/cloud_right.svg) top center / 15% no-repeat,
-    url(../img/background_certificate.svg) center / 90% no-repeat;
+        url(../img/cloud_left.svg) left 12% center / 14% no-repeat,
+        url(../img/cloud_right.svg) top center / 15% no-repeat,
+        url(../img/background_certificate.svg) center / 90% no-repeat;
 
     min-height: 50rem;
     padding-top: 15%;
@@ -206,3 +266,85 @@
 .description__instructor {
     margin-left: 20px;
 }
+
+.ticket__certificate {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+.ticket__butt button {
+    background-color: #6777FF;
+    color: white;
+    font-size: 44px;
+    border-radius: 25px;
+    width: 600px;
+    border: none;
+}
+
+.header__footer {
+    font-size: 25px;
+    color: black;
+}
+
+.main__footer {
+    border: 1px solid black;
+    /* display: flex; */
+    justify-content: center;
+    background-color: #6777FF;
+    height: 1700px;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.foto__vitrina {
+    margin-top: 54px;
+    background-image: url('../img/tft.png');
+    background-repeat: no-repeat;
+    height: 440px;
+    background-size: cover;
+}
+
+.map__footer {
+    background-image: url('../img/map.png');
+    background-repeat: no-repeat;
+    height: 628px;
+}
+
+.footer__down {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 30px;
+}
+
+.footer__contacts {
+    text-align: left;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+.footer__logo {
+    text-align: right;
+}
+
+.footer__email {
+    margin-top: 100px;
+}
+
+.footer__phone {
+    margin-top: 60px;
+}
+
+.footer__company__logo {
+    margin-top: 60px;
+}
+
+.footer__subscribe {
+    margin-top: 100px;
+}
+
+.footer__social {
+    margin-top: 60px;
+}
+
+/* Ирина конец */
