@@ -18,19 +18,24 @@
 }
 .main__section_boeing {
     position: relative;
-    z-index: 1;
     display: grid;
-    grid-template-areas:
-        'main__textblock main__photoblock';
     grid-template-columns: 5fr 7fr;
     grid-template-rows: 1fr;
     min-height: 943px;
 }
+.main__textblock {
+    margin-left: 30%;
+    margin-top: 10%;
+}
 .main__photoblock {
     background-image: url('../img/man-background.jpg');
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     position: relative;
-        top: -240px;
+        top: -185px;
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+        z-index: 1;
 }
 
 .header {
@@ -38,6 +43,7 @@
     position: relative;
     z-index: 2;
 }
+
 .nav {
     display: flex;
     justify-content: center;
@@ -58,6 +64,16 @@
 }
 .nav__phone {
     margin-left: 100px;
+}
+.main__photoblock_layer {
+    background-image: url(../img/man-layer.png);
+    background-size: 97%;
+    background-repeat: no-repeat;
+    position: relative;
+        top: -65px;
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+        z-index: 3;
 }
 /* Саша конец */
 
