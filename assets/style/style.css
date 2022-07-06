@@ -83,6 +83,29 @@
     border: 1px solid salmon;
 } */
 
+/* @font-face {
+    font-family: "LiquidCrystalDisplay";
+    src: url("../fonts/liquidcrystaldisplay.ttf");
+    font-weight: 400;
+} */
+
+@font-face {
+    font-family: "Acrom";
+    src: url("../fonts/Acrom-Bold.woff");
+    font-style: normal;
+    font-weight: 700;
+}
+
+.main__subtitle_fly-program {
+    font-family: 'Acrom';
+    font-weight: 700;
+    font-size: 2.3em;
+
+    text-transform: uppercase;
+
+    color: #03008D;
+}
+
 .card_fly-program {
     width: 70%;
 }
