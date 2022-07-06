@@ -113,6 +113,14 @@
 
 .img-boeing {
     padding-right: 5%;
+    height: 30%;
+    width: 45%;
+}
+
+.img-airbus {
+    padding: 4%;
+    height: 30%;
+    width: 45%;
 }
 
 .main__list {
@@ -144,7 +152,7 @@
 
 .list__item_airbus,
 .list__item_boeing {
-    margin: 1em;
+    margin: 1rem;
 }
 
 .card_feedback {
