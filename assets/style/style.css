@@ -1,4 +1,5 @@
 /* Саша начало */
+
 .subtitle__simulator {
     font-size: 3em;
 }
@@ -25,14 +26,37 @@
 }
 .main__textblock {
     margin-left: 30%;
-    margin-top: 10%;
+    margin-top: 5%;
+    position: relative;
+    z-index: 5;
+}
+.main__subtitle_you {
+    margin-left: -1rem;
+    font-size: 4em;
+    font-weight: bold;
+    color: #6777FF;
+}
+.main__subtitle_try {
+    font-size: 1em;
+    color: black;
+    margin-top: -2.8rem;
+}
+.main__subtitle_manage {
+    font-size: 1.5em;
+    color: black;
+    margin-top: -1.4rem;
+}
+.main__subtitle_jet {
+    font-size: 1.5em;
+    color: #6777FF;
+    margin-top: -1.7rem;
 }
 .main__photoblock {
     background-image: url('../img/man-background.jpg');
-    background-size: 100%;
+    background-size: 103%;
     background-repeat: no-repeat;
     position: relative;
-        top: -185px;
+        top: -27%;
         grid-row: 1 / 2;
         grid-column: 2 / 3;
         z-index: 1;
@@ -47,8 +71,6 @@
 .nav {
     display: flex;
     justify-content: center;
-    /* display: grid;
-    grid-template-columns: repeat(8, 1fr); */
     align-items: center;
     min-height: 196px;
 }
@@ -67,13 +89,53 @@
 }
 .main__photoblock_layer {
     background-image: url(../img/man-layer.png);
-    background-size: 97%;
+    background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
-        top: -65px;
+        top: -8%;
         grid-row: 1 / 2;
         grid-column: 2 / 3;
         z-index: 3;
+}
+.main__gradient-block {
+    background-image: url(../img/gradient.png);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 30%;
+    grid-row: 1 / 2;
+    grid-column: 2/ 3;
+    z-index: 4;
+}
+.main__table_boeing {
+    width: 120%;
+    min-height: 20rem;
+    border-radius: 25px;
+    position: relative;
+    text-align: center;
+    background-color: #E5E5E5;
+    z-index: 5;
+}
+
+
+.table__header_boeing {
+    background-color: #6777FF;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 25px 25px 0 0;
+}
+
+.table__row_boeing {
+    background: url(../img/Line\ 1.svg) center bottom / 80% no-repeat;
+}
+.table__min {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.table__cost {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #03008D;
 }
 /* Саша конец */
 
