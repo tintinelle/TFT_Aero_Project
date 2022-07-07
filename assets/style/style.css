@@ -296,19 +296,30 @@ align-items: center;
 }
 
 .main__section_certificate {
-    background: url(../img/dad_son_background.svg) left 20% top 5% / 38% no-repeat,
+    background: 
         url(../img/cloud_left.svg) left 12% center / 14% no-repeat,
         url(../img/cloud_right.svg) top center / 15% no-repeat,
         url(../img/background_certificate.svg) center / 90% no-repeat;
 
+    position: relative;
+
     min-height: 50rem;
-    padding-top: 16%;
+    /* padding-top: 16%; */
 
     text-transform: uppercase;
 }
+/* url(../img/dad_son_background.svg) left 20% top 5% / 38% no-repeat; */
+.main__section-man {
+    background: url(../img/dad_son_background.svg) no-repeat;
+    position: absolute;
+    top: -60px;
+    left: 10%;
+    width: 50%;
+    min-height: 42rem;
+}
 
 .main__subtitle_certificate {
-    margin: 0 15% 1% 47%;
+    margin: 20% 15% 1% 47%;
 
     font-family: 'Gilroy', sans-serif;
     font-weight: 600;
