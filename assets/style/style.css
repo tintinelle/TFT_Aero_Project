@@ -2,6 +2,8 @@
 
 .subtitle__simulator {
     font-size: 3em;
+    font-family: "Acrom";
+    font-weight: 700;
 }
 
 .main__simulator {
@@ -10,9 +12,22 @@
     background-position: center;
     background-repeat: no-repeat;
     min-height: 227px;
-    margin-bottom: 218px;
+    margin-bottom: 180px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
+.main__colortext {
+    color: #6777FF;
+}
+.subtitle__trainer {
+    font-family: "Acrom";
+    font-size: 2.3em;
+    font-weight: 700;
+    color: #03008D;
+    margin-left: 11%;
+}
 .main__img_trainer {
     display: block;
     margin-left: auto;
@@ -21,11 +36,14 @@
 }
 
 .main__section_boeing {
+    font-family: "Acrom";
+    font-weight: 700;
     position: relative;
     display: grid;
     grid-template-columns: 5fr 7fr;
     grid-template-rows: 1fr;
     min-height: 943px;
+    margin-bottom: 100px;
 }
 
 .main__textblock {
@@ -99,9 +117,24 @@
     font-size: 0.8em;
     margin-left: 10px;
 }
-
+.nav__contacts {
+    align-self: center;
+    margin-top: -2%;
+}
+.nav__address {
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    text-align: right;
+    margin-bottom: 10px;
+    padding-right: 100px;
+}
 .nav__phone {
     margin-left: 100px;
+   font-weight: bold;
+}
+.nav__phone_img {
+    margin-right: 20px;
 }
 
 .main__photoblock_layer {
@@ -138,6 +171,7 @@
 
 
 .table__header_boeing {
+    font-size: 1.5em;
     background-color: #6777FF;
     text-transform: uppercase;
     color: white;
