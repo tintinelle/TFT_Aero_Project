@@ -214,8 +214,15 @@ align-items: center;
     font-weight: 700;
 }
 
+@font-face {
+    font-family: "Acrom";
+    src: url("../fonts/Acrom-ExtraBold.woff");
+    font-style: normal;
+    font-weight: 800;
+}
+
 .main__subtitle_fly-program {
-    font-family: 'Acrom';
+    font-family: 'Acrom', sans-serif;
     font-weight: 700;
     font-size: 2.3em;
 
@@ -252,18 +259,39 @@ align-items: center;
     border-radius: 25px;
 
     text-align: center;
+
     background-color: #E5E5E5;
 }
 
 
 .table__header {
     border-radius: 27px 27px 0 0;
+
+    font-family: 'Acrom', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
     line-height: 300%;
+
     background-color: #6777FF;
+    color: #FFF;
 }
 
 .table__row {
     background: url(../img/Line\ 1.svg) center bottom / 80% no-repeat;
+}
+
+.table__min_second {
+    font-family: 'Acrom', sans-serif;
+    font-weight: 800;
+    font-size: 1.2em;
+
+    color: #000;
+}
+
+.table__cost_second {
+    font-family: 'Acrom', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
 }
 
 /* 
