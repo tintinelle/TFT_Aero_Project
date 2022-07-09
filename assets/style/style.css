@@ -210,11 +210,11 @@
     border: 1px solid salmon;
 } */
 
-    /* @font-face {
-    font-family: "LiquidCrystalDisplay";
-    src: url("../fonts/liquidcrystaldisplay.ttf");
-    font-weight: 400;
-} */
+    @font-face {
+    font-family: "Datcub";
+    src: url("../fonts/DatcubLight.ttf");
+    font-weight: 300;
+    }
 
     @font-face {
         font-family: "Acrom";
@@ -258,6 +258,24 @@
         font-size: 2.3em;
         text-transform: uppercase;
 
+        color: #03008D;
+    }
+
+    .pagination__fly-program {
+        margin: 3% auto 2% 11%;
+        
+    }
+
+    .pagination__page-number {
+        font-family: "Datcub", sans-serif;
+        font-weight: 300;
+        font-size: larger;
+
+        color: #6777FF;
+    }
+
+    .pagination__page-flip,
+    .pagination__page-number_dark {
         color: #03008D;
     }
 
