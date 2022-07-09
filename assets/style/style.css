@@ -1,625 +1,669 @@
 /* Саша начало */
+@media screen and (min-width: 1024px) {
+    .subtitle__simulator {
+        font-size: 3em;
+        font-family: "Acrom";
+        font-weight: 700;
+        position: relative;
+        z-index: 2;
+    }
 
-.subtitle__simulator {
-    font-size: 3em;
-    font-family: "Acrom";
-    font-weight: 700;
-    position: relative;
-    z-index: 2;
-}
+    .main__simulator {
+        text-align: center;
+        background-image: url('../img/paint.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 227px;
+        margin-bottom: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.main__simulator {
-    text-align: center;
-    background-image: url('../img/paint.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 227px;
-    margin-bottom: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.main__background_simulator {
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 68%;
-    right: 0%;
-    z-index: 0;
-}
-.main__colortext {
-    color: #6777FF;
-}
+    .main__background_simulator {
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 68%;
+        right: 0%;
+        z-index: 0;
+    }
 
-.subtitle__trainer {
-    font-family: "Acrom";
-    font-size: 2.3em;
-    font-weight: 700;
-    color: #03008D;
-    margin-left: 11%;
-}
+    .main__colortext {
+        color: #6777FF;
+    }
 
-.main__img_trainer {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-}
-.main__background_trainer {
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 143%;
-    left: 0%;
-    z-index: 0;
-}
+    .subtitle__trainer {
+        font-family: "Acrom";
+        font-size: 2.3em;
+        font-weight: 700;
+        color: #03008D;
+        margin-left: 11%;
+    }
 
-.main__section_boeing {
-    font-family: "Acrom";
-    font-weight: 700;
-    position: relative;
-    display: grid;
-    grid-template-columns: 5fr 7fr;
-    grid-template-rows: 1fr;
-    min-height: 943px;
-    margin-bottom: 100px;
-}
+    .main__img_trainer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
 
-.main__textblock {
-    margin-left: 30%;
-    margin-top: 5%;
-    position: relative;
-    z-index: 5;
-}
+    .main__background_trainer {
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 143%;
+        left: 0%;
+        z-index: 0;
+    }
 
-.main__subtitle_you {
-    margin-left: -1rem;
-    font-size: 6em;
-    font-weight: 700;
-    color: #6777FF;
-}
+    .main__section_boeing {
+        font-family: "Acrom";
+        font-weight: 700;
+        position: relative;
+        display: grid;
+        grid-template-columns: 5fr 7fr;
+        grid-template-rows: 1fr;
+        min-height: 943px;
+        margin-bottom: 100px;
+    }
 
-.main__subtitle_try {
-    font-size: 1.6em;
-    color: black;
-    margin-top: -2.8rem;
-}
+    .main__textblock {
+        margin-left: 30%;
+        margin-top: 5%;
+        position: relative;
+        z-index: 5;
+    }
 
-.main__subtitle_manage {
-    font-size: 2em;
-    color: black;
-    margin-top: -1.4rem;
-}
+    .main__subtitle_you {
+        margin-left: -1rem;
+        font-size: 6em;
+        font-weight: 700;
+        color: #6777FF;
+    }
 
-.main__subtitle_jet {
-    font-size: 2em;
-    font-weight: 700;
-    color: #6777FF;
-    margin-top: -1.7rem;
-}
+    .main__subtitle_try {
+        font-size: 1.6em;
+        color: black;
+        margin-top: -2.8rem;
+    }
 
-.main__photoblock {
-    background-image: url('../img/man-background.jpg');
-    background-size: 103%;
-    background-repeat: no-repeat;
-    position: relative;
-    grid-row: 1 / 2;
-    grid-column: 2 / 3;
-    z-index: 1;
-    top: -15%;
-    grid-row: 1 / 2;
-    grid-column: 2 / 3;
-    z-index: 1;
-}
+    .main__subtitle_manage {
+        font-size: 2em;
+        color: black;
+        margin-top: -1.4rem;
+    }
 
-.header {
-    background-color: #6777FF;
-    position: relative;
-    z-index: 2;
-}
+    .main__subtitle_jet {
+        font-size: 2em;
+        font-weight: 700;
+        color: #6777FF;
+        margin-top: -1.7rem;
+    }
 
-.nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 196px;
-}
+    .main__photoblock {
+        background-image: url('../img/man-background.jpg');
+        background-size: 103%;
+        background-repeat: no-repeat;
+        position: relative;
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+        z-index: 1;
+        top: -15%;
+    }
 
-.nav__logo {
-    margin-right: 37px;
-}
+    .header {
+        background-color: #6777FF;
+        position: relative;
+        z-index: 2;
+    }
 
-.nav__menu {
-    color: white;
-    text-decoration: none;
-    margin-right: 31px;
-    font-size: 0.8em;
-    margin-left: 10px;
-}
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 196px;
+    }
 
-.nav__contacts {
-    align-self: center;
-    margin-top: -2%;
-}
+    .nav__logo {
+        margin-right: 37px;
+    }
 
-.nav__address {
-    color: white;
-    text-transform: uppercase;
-    font-size: 0.8em;
-    text-align: right;
-    margin-bottom: 10px;
-    padding-right: 100px;
-}
+    .nav__menu {
+        color: white;
+        text-decoration: none;
+        margin-right: 31px;
+        font-size: 0.8em;
+        margin-left: 10px;
+    }
 
-.nav__phone {
-    margin-left: 100px;
-    font-weight: bold;
-}
+    .nav__contacts {
+        align-self: center;
+        margin-top: -2%;
+    }
 
-.nav__phone_img {
-    margin-right: 20px;
-}
+    .nav__address {
+        color: white;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        text-align: right;
+        margin-bottom: 10px;
+        padding-right: 100px;
+    }
 
-.main__gradient-block {
-    position: absolute;
-    right: 40%;
-    top: 0;
-    background-size: 85%;
-    background-repeat: no-repeat;
-}
+    .nav__phone {
+        margin-left: 100px;
+        font-weight: bold;
+    }
 
-.main__table_boeing {
-    position: absolute;
-    top: 66%;
-    right: 90%;
-    width: 60%;
-    min-height: 20rem;
-    border-radius: 25px;
-    text-align: center;
-    background-color: #E5E5E5;
-    z-index: 5;
-}
+    .nav__phone_img {
+        margin-right: 20px;
+    }
+
+    .main__gradient-block {
+        position: absolute;
+        right: 40%;
+        top: 0;
+        background-size: 85%;
+        background-repeat: no-repeat;
+    }
+
+    .main__table_boeing {
+        position: absolute;
+        top: 66%;
+        right: 90%;
+        width: 60%;
+        min-height: 20rem;
+        border-radius: 25px;
+        text-align: center;
+        background-color: #E5E5E5;
+        z-index: 5;
+    }
 
 
-.table__header_boeing {
-    font-size: 1.5em;
-    background-color: #6777FF;
-    text-transform: uppercase;
-    color: white;
-    border-radius: 25px 25px 0 0;
-}
+    .table__header_boeing {
+        font-size: 1.5em;
+        background-color: #6777FF;
+        text-transform: uppercase;
+        color: white;
+        border-radius: 25px 25px 0 0;
+    }
 
-.table__row_boeing {
-    background: url(../img/Line\ 1.svg) center bottom / 80% no-repeat;
-}
+    .table__row_boeing {
+        background: url(../img/Line\ 1.svg) center bottom / 80% no-repeat;
+    }
 
-.table__min {
-    font-size: 1.5em;
-    font-weight: bold;
-}
+    .table__min {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
 
-.table__cost {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #03008D;
-}
+    .table__cost {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #03008D;
+    }
 
-/* Саша конец */
+    /* Саша конец */
 
-/* Ильвина начало */
+    /* Ильвина начало */
 
-/* * {
+    /* * {
     border: 1px solid salmon;
 } */
 
-/* @font-face {
+    /* @font-face {
     font-family: "LiquidCrystalDisplay";
     src: url("../fonts/liquidcrystaldisplay.ttf");
     font-weight: 400;
 } */
 
-@font-face {
-    font-family: "Acrom";
-    src: url("../fonts/Acrom-Bold.woff");
-    font-style: normal;
-    font-weight: 700;
-}
+    @font-face {
+        font-family: "Acrom";
+        src: url("../fonts/Acrom-Bold.woff");
+        font-style: normal;
+        font-weight: 700;
+    }
 
-@font-face {
-    font-family: "Acrom";
-    src: url("../fonts/Acrom-ExtraBold.woff");
-    font-style: normal;
-    font-weight: 800;
-}
+    @font-face {
+        font-family: "Acrom";
+        src: url("../fonts/Acrom-ExtraBold.woff");
+        font-style: normal;
+        font-weight: 800;
+    }
 
-@font-face {
-    font-family: "Gilroy";
-    src: url("../fonts/Gilroy-Semibold600.woff");
-    font-style: normal;
-    font-weight: 600;
-}
+    @font-face {
+        font-family: "Gilroy";
+        src: url("../fonts/Gilroy-Semibold600.woff");
+        font-style: normal;
+        font-weight: 600;
+    }
 
-@font-face {
-    font-family: "Gilroy";
-    src: url("../fonts/Gilroy-Medium500.woff");
-    font-style: normal;
-    font-weight: 500;
-}
+    @font-face {
+        font-family: "Gilroy";
+        src: url("../fonts/Gilroy-Medium500.woff");
+        font-style: normal;
+        font-weight: 500;
+    }
 
-.main__section_fly-program {
-    background:
-        url(../img/background_circles_fly-program.svg) top -250% center / 100% no-repeat;
-}
-
-
-.main__subtitle_fly-program {
-    margin-left: 12%;
-
-    font-family: 'Acrom', sans-serif;
-    font-weight: 700;
-    font-size: 2.3em;
-    text-transform: uppercase;
-
-    color: #03008D;
-}
-
-.container_fly-program {
-    padding: 0 10% 0 0;
-    margin-bottom: 10%;
-    margin-left: 12%;
-}
-
-.card_fly-program {
-    width: 35vw;
-
-    border: none;
-}
-
-.card-header:first-child {
-    border-radius: 30px 30px 0 0;
-}
-
-.card-header_fly-program {
-    padding: 5% 5% 4% 7%;
-    font-family: 'Acrom', sans-serif;
-    font-weight: 700;
-    font-size: 1.5em;
-    text-transform: uppercase;
-
-    background-color: #6777FF;
-    color: #FFF;
-}
-
-.card-body_fly-program {
-    padding: 0;
-}
-
-.card-text_fly-program {
-    margin-top: 6%;
-
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 500;
-
-    color: #000;
-}
-
-.btn_fly-program {
-    padding: 0 6% 1% 6%;
-    border-radius: 100px;
-
-    background-color: #6777FF;
-    color: #FFF;
-}
-
-.main__section_certificate {
-    background: url(../img/background_certificate.png) left 12% center / 100% no-repeat;
-    position: relative;
-
-    min-height: 70rem;
-    padding-top: 6%;
-
-    text-transform: uppercase;
-}
-
-.main__section-man {
-    background: url(../img/dad_son_background.svg) no-repeat;
-    position: absolute;
-    top: 8%;
-    left: 7%;
-    width: 50%;
-    min-height: 48rem;
-}
-
-.main__subtitle_certificate {
-    margin: 20% 15% 1% 47%;
-
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 600;
-    font-size: 1.7em;
-
-    color: white;
-}
-
-.main__table_second {
-    width: 32%;
-    min-height: 18rem;
-    margin-left: 47%;
-    border-radius: 25px;
-
-    text-align: center;
-
-    background-color: #E5E5E5;
-}
+    .main__section_fly-program {
+        background:
+            url(../img/background_circles_fly-program.svg) top -250% center / 100% no-repeat;
+    }
 
 
-.table__header {
-    border-radius: 25px 25px 0 0;
+    .main__subtitle_fly-program {
+        margin-left: 12%;
 
-    font-family: 'Acrom', sans-serif;
-    font-weight: 700;
-    font-size: 1.4em;
-    line-height: 250%;
+        font-family: 'Acrom', sans-serif;
+        font-weight: 700;
+        font-size: 2.3em;
+        text-transform: uppercase;
 
-    background-color: #6777FF;
-    color: #FFF;
-}
+        color: #03008D;
+    }
 
-.table__row {
-    background: url(../img/Line\ 1.svg) center bottom / 80% no-repeat;
-}
+    .container_fly-program {
+        padding: 0 10% 0 0;
+        margin-bottom: 10%;
+        margin-left: 12%;
+    }
 
-.table__min_second {
-    font-family: 'Acrom', sans-serif;
-    font-weight: 800;
-    font-size: 1.2em;
+    .card_fly-program {
+        width: 35vw;
 
-    color: #000;
-}
+        border: none;
+    }
 
-.table__cost_second {
-    font-family: 'Acrom', sans-serif;
-    font-weight: 700;
-    font-size: 1.2em;
-}
+    .card-header:first-child {
+        border-radius: 30px 30px 0 0;
+    }
 
-/* 
+    .card-header_fly-program {
+        padding: 5% 5% 4% 7%;
+        font-family: 'Acrom', sans-serif;
+        font-weight: 700;
+        font-size: 1.5em;
+        text-transform: uppercase;
+
+        background-color: #6777FF;
+        color: #FFF;
+    }
+
+    .card-body_fly-program {
+        padding: 0;
+    }
+
+    .card-text_fly-program {
+        margin-top: 6%;
+
+        font-family: 'Gilroy', sans-serif;
+        font-weight: 500;
+
+        color: #000;
+    }
+
+    .btn_fly-program {
+        padding: 0 6% 1% 6%;
+        border-radius: 100px;
+
+        background-color: #6777FF;
+        color: #FFF;
+    }
+
+    .main__section_certificate {
+        background: url(../img/background_certificate.png) left 12% center / 100% no-repeat;
+        position: relative;
+
+        min-height: 70rem;
+        padding-top: 6%;
+
+        text-transform: uppercase;
+    }
+
+    .main__section-man {
+        background: url(../img/dad_son_background.svg) no-repeat;
+        position: absolute;
+        top: 8%;
+        left: 7%;
+        width: 50%;
+        min-height: 48rem;
+    }
+
+    .main__subtitle_certificate {
+        margin: 20% 15% 1% 47%;
+
+        font-family: 'Gilroy', sans-serif;
+        font-weight: 600;
+        font-size: 1.7em;
+
+        color: white;
+    }
+
+    .main__table_second {
+        width: 32%;
+        min-height: 18rem;
+        margin-left: 47%;
+        border-radius: 25px;
+
+        text-align: center;
+
+        background-color: #E5E5E5;
+    }
+
+
+    .table__header {
+        border-radius: 25px 25px 0 0;
+
+        font-family: 'Acrom', sans-serif;
+        font-weight: 700;
+        font-size: 1.4em;
+        line-height: 250%;
+
+        background-color: #6777FF;
+        color: #FFF;
+    }
+
+    .table__row {
+        background: url(../img/Line\ 1.svg) center bottom / 80% no-repeat;
+    }
+
+    .table__min_second {
+        font-family: 'Acrom', sans-serif;
+        font-weight: 800;
+        font-size: 1.2em;
+
+        color: #000;
+    }
+
+    .table__cost_second {
+        font-family: 'Acrom', sans-serif;
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+
+    /* 
 Ильвина конец */
 
-/* Катя начало */
+    /* Катя начало */
 
-@font-face {
-    font-family: "Gilroy";
-    src: url("../fonts/Gilroy-Medium.woff");
-    font-style: normal;
-    font-weight: 500;
-}
+    @font-face {
+        font-family: "Gilroy";
+        src: url("../fonts/Gilroy-Medium.woff");
+        font-style: normal;
+        font-weight: 500;
+    }
 
-.main__subtitle_plane {
-    text-align: center;
-    padding-top: 8%;
-    font-family: 'Acrom', Arial, sans-serif;
-    font-weight: 700;
-    font-size: 2.3em;
+    .main__subtitle_plane {
+        text-align: center;
+        padding-top: 8%;
+        font-family: 'Acrom', Arial, sans-serif;
+        font-weight: 700;
+        font-size: 2.3em;
 
-    text-transform: uppercase;
+        text-transform: uppercase;
 
-    color: #03008D;
-}
+        color: #03008D;
+    }
 
-.card_feedback {
-    background-color: rgba(229, 229, 229, 1);
-    border-radius: 1em;
-}
+    .card_feedback {
+        background-color: rgba(229, 229, 229, 1);
+        border-radius: 1em;
+    }
 
-.container__plane {
-    display: flex;
-    flex-direction: inline-block;
-    justify-content: center;
-}
+    .container__plane {
+        display: flex;
+        flex-direction: inline-block;
+        justify-content: center;
+    }
 
-.img-boeing {
-    padding-right: 5%;
-    height: 30%;
-    width: 45%;
-}
+    .img-boeing {
+        padding-right: 5%;
+        height: 30%;
+        width: 45%;
+    }
 
-.img-airbus {
-    padding: 4%;
-    height: 30%;
-    width: 45%;
-}
+    .img-airbus {
+        padding: 4%;
+        height: 30%;
+        width: 45%;
+    }
 
-.main__list {
-    list-style-type: none;
-    margin: 0 auto;
-    display: flex;
-}
+    .main__list {
+        list-style-type: none;
+        margin: 0 auto;
+        display: flex;
+    }
 
-.main__list_boeing {
-    flex-direction: column;
-    padding-bottom: 10%;
-}
+    .main__list_boeing {
+        flex-direction: column;
+        padding-bottom: 10%;
+    }
 
-.main__list_airbus {
-    flex-direction: column;
-    text-align: end;
-    padding-bottom: 10%;
-}
+    .main__list_airbus {
+        flex-direction: column;
+        text-align: end;
+        padding-bottom: 10%;
+    }
 
-.list__item_boeing::before {
-    content: url('../img/dashPlane.svg');
-}
+    .list__item_boeing::before {
+        content: url('../img/dashPlane.svg');
+    }
 
-.list__item_airbus::after {
-    content: url('../img/dashPlane.svg');
-}
+    .list__item_airbus::after {
+        content: url('../img/dashPlane.svg');
+    }
 
-.list__item_airbus,
-.list__item_boeing {
-    margin: 10px;
-}
-
-
-.main__content {
-    margin-left: 14%;
-    background-image: url('../img/mainTextBackground.svg');
-    background-size: 87%;
-    background-repeat: no-repeat;
-    min-height: 20rem;
-}
-
-.main__text {
-    font-family: 'Gilroy', Arial, sans-serif;
-    text-align: center;
-    padding-top: 3%;
-    padding-right: 17%;
-    font-size: 1em;
-}
-
-.main__subtitle_feedback {
-    padding-left: 11%;
-    margin: 4%;
-    font-family: 'Acrom';
-    font-weight: 700;
-    font-size: 2.3em;
-
-    text-transform: uppercase;
-
-    color: #03008D;
-}
-
-.card_feedback {
-    height: 100%;
-}
-
-.card-text {
-    font-family: 'Gilroy', Arial, sans-serif;
-}
+    .list__item_airbus,
+    .list__item_boeing {
+        margin: 10px;
+    }
 
 
-.page-item {
-    font-size: 1.5em;
-}
+    .main__content {
+        margin-left: 14%;
+        background-image: url('../img/mainTextBackground.svg');
+        background-size: 87%;
+        background-repeat: no-repeat;
+        min-height: 20rem;
+    }
 
-/* 
+    .main__text {
+        font-family: 'Gilroy', Arial, sans-serif;
+        text-align: center;
+        padding-top: 3%;
+        padding-right: 17%;
+        font-size: 1em;
+    }
+
+    .main__subtitle_feedback {
+        padding-left: 11%;
+        margin: 4%;
+        font-family: 'Acrom';
+        font-weight: 700;
+        font-size: 2.3em;
+
+        text-transform: uppercase;
+
+        color: #03008D;
+    }
+
+    .card_feedback {
+        height: 100%;
+    }
+
+    .card-text {
+        font-family: 'Gilroy', Arial, sans-serif;
+    }
+
+
+    .page-item {
+        font-size: 1.5em;
+    }
+
+    /* 
 Катя конец */
 
 
 
-/* Ирина начало */
-.all__instructors {
-    display: flex;
-    justify-content: space-around;
-    width: 70%;
+    /* Ирина начало */
+    .all__instructors {
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+    }
+
+    .item__instructor {
+        background-color: #6777FF;
+        margin: 0px 15px 0px 15px;
+        border-radius: 20px;
+        height: 390px;
+    }
+
+    .item__instructor a {
+        color: white;
+    }
+
+    .container__instructor {
+        display: flex;
+        justify-content: center;
+    }
+
+    .name__instructor {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .description__instructor {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .name__instructor,
+    .description__instructor {
+        margin-left: 20px;
+    }
+
+    .ticket__certificate {
+        display: flex;
+        justify-content: center;
+        padding-top: 5vh;
+    }
+
+    .ticket__butt button {
+        background-color: #6777FF;
+        color: white;
+        font-size: 44px;
+        border-radius: 25px;
+        width: 600px;
+        border: none;
+    }
+
+    .header__footer {
+        font-size: 25px;
+        color: black;
+    }
+
+    .main__footer {
+        border: 1px solid black;
+        /* display: flex; */
+        justify-content: center;
+        background-color: #6777FF;
+        height: 1700px;
+        border-radius: 40px 40px 0px 0px;
+    }
+
+    .foto__vitrina {
+        margin-top: 54px;
+        background-image: url('../img/tft.png');
+        background-repeat: no-repeat;
+        height: 440px;
+        background-size: cover;
+    }
+
+    .map__footer {
+        background-image: url('../img/map.png');
+        background-repeat: no-repeat;
+        height: 628px;
+    }
+
+    .footer__down {
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        font-size: 30px;
+    }
+
+    .footer__contacts {
+        text-align: left;
+        margin-top: 60px;
+        text-transform: uppercase;
+    }
+
+    .footer__logo {
+        text-align: right;
+    }
+
+    .footer__email {
+        margin-top: 100px;
+    }
+
+    .footer__phone {
+        margin-top: 60px;
+    }
+
+    .footer__company__logo {
+        margin-top: 60px;
+    }
+
+    .footer__subscribe {
+        margin-top: 100px;
+    }
+
+    .footer__social {
+        margin-top: 60px;
+    }
+
+    /* Ирина конец */
 }
 
-.item__instructor {
-    background-color: #6777FF;
-    margin: 0px 15px 0px 15px;
-    border-radius: 20px;
-    height: 390px;
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    /* Саша начало */
+    /* Саша конец */
+
+    /* Ильвина начало */
+    /* Ильвина конец */
+
+    /* Катя начало */
+    /* Катя конец */
+
+    /* Ирина начало */
+    /* Ирина конец */
+
 }
 
-.item__instructor a {
-    color: white;
+@media screen and (min-width:321px) and (max-width: 767px) {
+    /* Саша начало */
+    /* Саша конец */
+
+    /* Ильвина начало */
+    /* Ильвина конец */
+
+    /* Катя начало */
+    /* Катя конец */
+
+    /* Ирина начало */
+    /* Ирина конец */
 }
 
-.container__instructor {
-    display: flex;
-    justify-content: center;
-}
+@media screen and (max-width: 320px) {
+    /* Саша начало */
+    /* Саша конец */
 
-.name__instructor {
-    font-size: 24px;
-    font-weight: 700;
-}
+    /* Ильвина начало */
+    /* Ильвина конец */
 
-.description__instructor {
-    font-size: 24px;
-    font-weight: 400;
-}
+    /* Катя начало */
+    /* Катя конец */
 
-.name__instructor,
-.description__instructor {
-    margin-left: 20px;
+    /* Ирина начало */
+    /* Ирина конец */
 }
-
-.ticket__certificate {
-    display: flex;
-    justify-content: center;
-    padding-top: 5vh;
-}
-
-.ticket__butt button {
-    background-color: #6777FF;
-    color: white;
-    font-size: 44px;
-    border-radius: 25px;
-    width: 600px;
-    border: none;
-}
-
-.header__footer {
-    font-size: 25px;
-    color: black;
-}
-
-.main__footer {
-    border: 1px solid black;
-    /* display: flex; */
-    justify-content: center;
-    background-color: #6777FF;
-    height: 1700px;
-    border-radius: 40px 40px 0px 0px;
-}
-
-.foto__vitrina {
-    margin-top: 54px;
-    background-image: url('../img/tft.png');
-    background-repeat: no-repeat;
-    height: 440px;
-    background-size: cover;
-}
-
-.map__footer {
-    background-image: url('../img/map.png');
-    background-repeat: no-repeat;
-    height: 628px;
-}
-
-.footer__down {
-    display: flex;
-    justify-content: space-around;
-    color: white;
-    font-size: 30px;
-}
-
-.footer__contacts {
-    text-align: left;
-    margin-top: 60px;
-    text-transform: uppercase;
-}
-
-.footer__logo {
-    text-align: right;
-}
-
-.footer__email {
-    margin-top: 100px;
-}
-
-.footer__phone {
-    margin-top: 60px;
-}
-
-.footer__company__logo {
-    margin-top: 60px;
-}
-
-.footer__subscribe {
-    margin-top: 100px;
-}
-
-.footer__social {
-    margin-top: 60px;
-}
-
-/* Ирина конец */
