@@ -289,7 +289,7 @@
     }
 
     .card_fly-program {
-        width: 35vw;
+        width: 95%;
 
         border: none;
     }
@@ -331,7 +331,7 @@
     }
 
     .main__section_certificate {
-        background: url(../img/background_certificate.png) left 12% center / 100% no-repeat;
+        background: url(../img/background_certificate.png) 0% 0% / 100% no-repeat;
         position: relative;
 
         min-height: 70rem;
@@ -341,16 +341,16 @@
     }
 
     .main__section-man {
-        background: url(../img/dad_son_background.svg) no-repeat;
+        background: url(../img/dad_son_background.svg) 0% 0% / 90% no-repeat;
         position: absolute;
         top: 8%;
         left: 7%;
-        width: 50%;
+        width: 45%;
         min-height: 48rem;
     }
 
     .main__subtitle_certificate {
-        margin: 20% 15% 1% 47%;
+        margin: 15% 15% 1% 47%;
 
         font-family: 'Gilroy', sans-serif;
         font-weight: 600;
@@ -983,8 +983,6 @@
     }
 
     .card_fly-program {
-        width: 45%;
-
         border: none;
     }
 
@@ -995,7 +993,7 @@
     .card-header_fly-program {
         font-family: 'Acrom', sans-serif;
         font-weight: 700;
-        font-size: 0.8em;
+        font-size: 1em;
         text-transform: uppercase;
 
         background-color: #6777FF;
@@ -1011,7 +1009,6 @@
 
         font-family: 'Gilroy', sans-serif;
         font-weight: 500;
-        font-size: 0.6em;
 
         color: #000;
     }
