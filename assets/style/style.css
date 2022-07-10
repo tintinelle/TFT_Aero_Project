@@ -195,6 +195,9 @@
         font-size: 1.5em;
         font-weight: bold;
     }
+    .main__table_boeing-rotate {
+        display: none;
+    }
 
     .table__cost {
         font-size: 1.5em;
@@ -645,6 +648,270 @@
 
 @media screen and (min-width:768px) and (max-width: 1023px) {
     /* Саша начало */
+
+    @font-face {
+        font-family: "Acrom";
+        src: url("../fonts/Acrom-Bold.woff");
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    @font-face {
+        font-family: "Acrom";
+        src: url("../fonts/Acrom-ExtraBold.woff");
+        font-style: normal;
+        font-weight: 800;
+    }
+
+    @font-face {
+        font-family: "Gilroy";
+        src: url("../fonts/Gilroy-Semibold600.woff");
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    @font-face {
+        font-family: "Gilroy";
+        src: url("../fonts/Gilroy-Medium500.woff");
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    .subtitle__simulator {
+        font-size: 2.3em;
+        font-family: "Acrom";
+        font-weight: 700;
+        position: relative;
+        z-index: 2;
+    }
+
+    .main__simulator {
+        text-align: center;
+        background-image: url('../img/paint.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 227px;
+        margin-bottom: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__background_simulator {
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 60%;
+        right: 0%;
+        z-index: 0;
+        width: 50%;
+    }
+
+    .main__colortext {
+        color: #6777FF;
+    }
+
+    .subtitle__trainer {
+        font-family: "Acrom";
+        font-size: 2.3em;
+        font-weight: 700;
+        color: #03008D;
+        margin-left: 11%;
+    }
+
+    .main__img_trainer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+
+    .main__background_trainer {
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        z-index: 0;
+        width: 50%;
+    }
+
+    .main__section_boeing {
+        font-family: "Acrom";
+        font-weight: 700;
+        position: relative;
+        display: grid;
+        grid-template-columns: 5fr 7fr;
+        grid-template-rows: 1fr;
+        min-height: 943px;
+    }
+
+    .main__textblock {
+        margin-left: 7%;
+        margin-top: 5%;
+        position: relative;
+        z-index: 5;
+    }
+
+    .main__subtitle_you {
+        margin-left: -1rem;
+        font-size: 6em;
+        font-weight: 700;
+        color: #6777FF;
+    }
+
+    .main__subtitle_try {
+        font-size: 1.6em;
+        color: black;
+        margin-top: -2.8rem;
+    }
+
+    .main__subtitle_manage {
+        font-size: 2em;
+        color: black;
+        margin-top: -1.4rem;
+    }
+
+    .main__subtitle_jet {
+        font-size: 2em;
+        font-weight: 700;
+        color: #6777FF;
+        margin-top: -1.7rem;
+    }
+
+    .main__photoblock {
+        background-image: url('../img/man-background.jpg');
+        background-size: 103%;
+        background-repeat: no-repeat;
+        position: relative;
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+        z-index: 1;
+        top: -5%;
+    }
+
+    .header {
+        background-color: #6777FF;
+        position: relative;
+        z-index: 2;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        min-height: 196px;
+        padding-bottom: 4%;
+    }
+
+    .nav__logo {
+        margin-right: 37px;
+    }
+
+    .nav__menu {
+        color: white;
+        text-decoration: none;
+        margin-right: 31px;
+        font-size: 0.8em;
+        margin-left: 5%;
+    }
+
+    .nav__contacts {
+        position: absolute;
+        align-self: flex-start;
+        margin-top: 3%;
+        margin-right: -10%;
+    }
+
+    .nav__address {
+        color: white;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        text-align: right;
+        margin-bottom: 10px;
+        padding-right: 100px;
+    }
+
+    .nav__phone {
+        margin-left: 100px;
+        font-weight: bold;
+    }
+
+    .nav__phone_img {
+        margin-right: 20px;
+    }
+
+    .main__gradient-block {
+        position: absolute;
+        left: -40%;
+        top: 0;
+        background-repeat: no-repeat;
+        height: 50rem;
+    }
+
+    .main__table_boeing {
+        display: none;
+        position: absolute;
+        top: 55%;
+        right: 0%;
+        width: 180%;
+        min-height: 20rem;
+        border-radius: 25px;
+        text-align: center;
+        background-color: #E5E5E5;
+        z-index: 5;
+    }
+
+
+    .table__header_boeing {
+        font-size: 1.5em;
+        background-color: #6777FF;
+        text-transform: uppercase;
+        color: white;
+        border-radius: 25px 25px 0 0;
+    }
+
+    .table__row_boeing {
+        background: url(../img/Line\ 1.svg) center bottom / 80% no-repeat;
+    }
+
+    .table__min {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+.main__table_boeing-rotate {
+    position: absolute;
+    top: 54%;
+    right: 0%;
+    width: 180%;
+    min-height: 20rem;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #E5E5E5;
+    z-index: 5;
+}
+.table__header_boeing-rotate {
+    font-size: 3em;
+    background-color: #6777FF;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 25px 25px 0 0;
+}
+
+
+.table__min-rotate {
+    font-size: 1.5em;
+    font-weight: bold;
+ border-right: 2px solid black;
+}
+    .table__cost-rotate {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #03008D;
+        border-right: 2px solid black;
+    }
+    .table__border-rotate {
+        border-right: none;
+    }
+
     /* Саша конец */
 
     /* Ильвина начало */
