@@ -251,6 +251,8 @@
 
 
     .main__subtitle_fly-program {
+        margin-left: 12%;
+
         font-family: 'Acrom', sans-serif;
         font-weight: 700;
         font-size: 2.3em;
@@ -261,6 +263,7 @@
 
     .pagination__fly-program {
         margin: 3% auto 2% 11%;
+        
     }
 
     .pagination__page-number {
@@ -274,6 +277,54 @@
     .pagination__page-flip,
     .pagination__page-number_dark {
         color: #03008D;
+    }
+
+    .container_fly-program {
+        padding: 0 10% 0 0;
+        margin-bottom: 10%;
+        margin-left: 12%;
+    }
+
+    .card_fly-program {
+        width: 35vw;
+
+        border: none;
+    }
+
+    .card-header:first-child {
+        border-radius: 30px 30px 0 0;
+    }
+
+    .card-header_fly-program {
+        padding: 5% 5% 4% 7%;
+        font-family: 'Acrom', sans-serif;
+        font-weight: 700;
+        font-size: 1.5em;
+        text-transform: uppercase;
+
+        background-color: #6777FF;
+        color: #FFF;
+    }
+
+    .card-body_fly-program {
+        padding: 0;
+    }
+
+    .card-text_fly-program {
+        margin-top: 6%;
+
+        font-family: 'Gilroy', sans-serif;
+        font-weight: 500;
+
+        color: #000;
+    }
+
+    .btn_fly-program {
+        padding: 0 6% 1% 6%;
+        border-radius: 100px;
+
+        background-color: #6777FF;
+        color: #FFF;
     }
 
     .main__section_certificate {
@@ -643,7 +694,7 @@
     }
 
     .pagination__fly-program {
-        margin: 2% auto 2% 2%;
+        margin: 3% auto 2% 2%;
         
     }
 
@@ -665,7 +716,7 @@
     }
 
     .card_fly-program {
-        width: 90%;
+        width: 45%;
 
         border: none;
     }
@@ -693,7 +744,7 @@
 
         font-family: 'Gilroy', sans-serif;
         font-weight: 500;
-        font-size: 0.8em;
+        font-size: 0.6em;
 
         color: #000;
     }
@@ -710,6 +761,7 @@
         font-size: 0.7em;
     }
 
+<<<<<<< HEAD
     .main__subtitle_certificate {
         margin: 30% 15% 1% 47%;
 
@@ -780,6 +832,9 @@
         font-weight: 700;
         font-size: 1.2em;
     }
+=======
+
+>>>>>>> f23ea04cf36e32a2e6c1c020a7f613cafb0ca608
 
     /* Ильвина конец */
 
@@ -791,21 +846,7 @@
 
 }
 
-@media screen and (min-width:321px) and (max-width: 767px) {
-    /* Саша начало */
-    /* Саша конец */
-
-    /* Ильвина начало */
-    /* Ильвина конец */
-
-    /* Катя начало */
-    /* Катя конец */
-
-    /* Ирина начало */
-    /* Ирина конец */
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     /* Саша начало */
     /* Саша конец */
 
