@@ -251,8 +251,6 @@
 
 
     .main__subtitle_fly-program {
-        margin-left: 12%;
-
         font-family: 'Acrom', sans-serif;
         font-weight: 700;
         font-size: 2.3em;
@@ -263,7 +261,6 @@
 
     .pagination__fly-program {
         margin: 3% auto 2% 11%;
-        
     }
 
     .pagination__page-number {
@@ -277,54 +274,6 @@
     .pagination__page-flip,
     .pagination__page-number_dark {
         color: #03008D;
-    }
-
-    .container_fly-program {
-        padding: 0 10% 0 0;
-        margin-bottom: 10%;
-        margin-left: 12%;
-    }
-
-    .card_fly-program {
-        width: 35vw;
-
-        border: none;
-    }
-
-    .card-header:first-child {
-        border-radius: 30px 30px 0 0;
-    }
-
-    .card-header_fly-program {
-        padding: 5% 5% 4% 7%;
-        font-family: 'Acrom', sans-serif;
-        font-weight: 700;
-        font-size: 1.5em;
-        text-transform: uppercase;
-
-        background-color: #6777FF;
-        color: #FFF;
-    }
-
-    .card-body_fly-program {
-        padding: 0;
-    }
-
-    .card-text_fly-program {
-        margin-top: 6%;
-
-        font-family: 'Gilroy', sans-serif;
-        font-weight: 500;
-
-        color: #000;
-    }
-
-    .btn_fly-program {
-        padding: 0 6% 1% 6%;
-        border-radius: 100px;
-
-        background-color: #6777FF;
-        color: #FFF;
     }
 
     .main__section_certificate {
@@ -694,7 +643,7 @@
     }
 
     .pagination__fly-program {
-        margin: 3% auto 2% 2%;
+        margin: 2% auto 2% 2%;
         
     }
 
@@ -716,7 +665,7 @@
     }
 
     .card_fly-program {
-        width: 45%;
+        width: 90%;
 
         border: none;
     }
@@ -744,7 +693,7 @@
 
         font-family: 'Gilroy', sans-serif;
         font-weight: 500;
-        font-size: 0.6em;
+        font-size: 0.8em;
 
         color: #000;
     }
@@ -761,7 +710,60 @@
         font-size: 0.7em;
     }
 
+    .main__subtitle_certificate {
+        width: 40%;
+        /* margin: 20% 15% 1% 47%; */
 
+        font-family: 'Gilroy', sans-serif;
+        font-weight: 600;
+        font-size: 1.3em;
+        text-transform: uppercase;
+
+        /* color: white; */
+    }
+
+    .main__table_second {
+        width: 35%;
+        min-height: 12rem;
+        margin-left: 47%;
+        border-radius: 25px;
+
+        text-align: center;
+
+        background-color: #E5E5E5;
+    }
+
+
+    .table__header {
+        border-radius: 25px 25px 0 0;
+        padding: 3% 2%;
+
+        font-family: 'Acrom', sans-serif;
+        font-weight: 700;
+        font-size: 1.1em;
+        text-transform: uppercase;
+
+        background-color: #6777FF;
+        color: #FFF;
+    }
+
+    .table__row {
+        background: url(../img/Line\ 1.svg) center bottom / 80% no-repeat;
+    }
+
+    .table__min_second {
+        font-family: 'Acrom', sans-serif;
+        font-weight: 800;
+        font-size: 1.2em;
+
+        color: #000;
+    }
+
+    .table__cost_second {
+        font-family: 'Acrom', sans-serif;
+        font-weight: 700;
+        font-size: 1.2em;
+    }
 
     /* Ильвина конец */
 
