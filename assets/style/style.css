@@ -661,7 +661,7 @@
     }
 
     .container_fly-program {
-        margin: auto auto 10% 1%;
+        margin-left: 1%;
     }
 
     .card_fly-program {
@@ -711,8 +711,7 @@
     }
 
     .main__subtitle_certificate {
-        width: 40%;
-        /* margin: 20% 15% 1% 47%; */
+        margin: 30% 15% 1% 47%;
 
         font-family: 'Gilroy', sans-serif;
         font-weight: 600;
@@ -720,6 +719,23 @@
         text-transform: uppercase;
 
         /* color: white; */
+    }
+
+    .main__section_certificate {
+        background: url(../img/background_certificate.png) 0% 0% / 100% no-repeat;
+        position: relative;
+
+        min-height: 70rem;
+
+    }
+
+    .main__section-man {
+        background: url(../img/dad_son_background.svg) 0% 0% / 90% no-repeat;
+        position: absolute;
+        top: 2%;
+        left: 7%;
+        width: 50%;
+        min-height: 48rem;
     }
 
     .main__table_second {
