@@ -425,33 +425,33 @@
         justify-content: center;
     }
 
-    .img-boeing {
-        padding-right: 5%;
-        height: 30%;
-        width: 45%;
+    .main__img-boeing {
+        padding-right: 7%;
+        height: 35%;
+        width: 50%
     }
 
-    .img-airbus {
-        padding: 4%;
-        height: 30%;
-        width: 45%;
+    .main__img-airbus {
+        padding-left: 5%;
+        height: 32%;
+        width: 50%;
     }
 
     .main__list {
         list-style-type: none;
         margin: 0 auto;
         display: flex;
+        margin-bottom: 3%;
     }
 
     .main__list_boeing {
         flex-direction: column;
-        margin-bottom: 15%;
+        
     }
 
     .main__list_airbus {
         flex-direction: column;
         text-align: end;
-        margin-bottom: 15%;
         margin-left: 3%;
     }
 
