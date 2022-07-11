@@ -1181,16 +1181,17 @@
     .main__background_trainer {
         background-repeat: no-repeat;
         position: absolute;
-        top: 143%;
+        top: 200%;
         left: 0%;
         z-index: 0;
+        width: 20rem;
     }
 
     .main__section_boeing {
         font-family: "Acrom";
         font-weight: 700;
         position: relative;
-        min-height: 700px;
+        min-height: 50rem;
     }
 
     .main__textblock {
@@ -1231,6 +1232,7 @@
         color: #6777FF;
         margin-top: -1.7rem;
     }
+  
 
     .main__photoblock {
         background-image: url('../img/man-background.jpg');
