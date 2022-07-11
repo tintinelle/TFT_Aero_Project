@@ -210,10 +210,6 @@
 
     /* Ильвина начало */
 
-    /* * {
-    border: 1px solid salmon;
-} */
-
     @font-face {
         font-family: "Datcub";
         src: url("../fonts/DatcubLight.ttf");
@@ -252,7 +248,6 @@
         background:
             url(../img/background_circles_fly-program.svg) top -250% center / 100% no-repeat;
     }
-
 
     .main__subtitle_fly-program {
         margin-left: 12%;
@@ -342,12 +337,12 @@
     }
 
     .main__section-man {
-        background: url(../img/dad_son_background.svg) 0% 0% / 90% no-repeat;
+        background: url(../img/dad_son_background.svg) 0% 0% / 100% no-repeat;
         position: absolute;
         top: 8%;
         left: 7%;
         width: 45%;
-        min-height: 48rem;
+        min-height: 53rem;
     }
 
     .main__subtitle_certificate {
@@ -1412,16 +1407,15 @@
     }
 
     .main__section_certificate {
-        background: url(../img/background_mobile_certificate.png) 0% 0% / 100% no-repeat;
+        background: url(../img/background_mobile_certificate.png) top 35% center / 100% no-repeat;
 
-        margin-top: 10%;
+        margin-top: 20%;
     }
 
 
     .main__subtitle_certificate {
         margin-left: 5%;
         margin-right: 5%;
-        margin-top: 1%;
 
         font-family: 'Gilroy', sans-serif;
         font-weight: 600;
@@ -1433,9 +1427,9 @@
 
     .main__table_second {
         width: 90%;
-        margin-left: 5%;
-        margin-top: 78%;
         min-height: 15rem;
+        margin-left: 5%;
+        margin-top: 95%;
         border-radius: 25px;
 
         text-align: center;
