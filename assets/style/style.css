@@ -350,10 +350,10 @@
     .main__section-man {
         background: url(../img/dad_son_background.svg) 0% 0% / 100% no-repeat;
         position: absolute;
-        top: 2.5%;
+        top: 3%;
         left: 7%;
         width: 45%;
-        min-height: 53rem;
+        min-height: 55rem;
     }
 
     .main__subtitle_certificate {
@@ -1402,9 +1402,8 @@
         width: 90%;
         min-height: 15rem;
         margin-left: 5%;
-        margin-top: 99%;
+        margin-top: 98%;
     }
-
 
     .table__header {
         padding: 3% 2%;
@@ -1417,7 +1416,6 @@
         font-size: 0.9em;
         font-weight: 900;
     }
-
 
     /* Ильвина конец */
 
