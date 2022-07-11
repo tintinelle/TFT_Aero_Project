@@ -1155,11 +1155,7 @@
         align-items: center;
         position: fixed;
         top: 50px;
-<<<<<<< HEAD
-        left: 80%;
-=======
         left: 90%;
->>>>>>> 41df2f056b52ae54e7942e524b7619d38f51fc3a
         width: 35px;
         height: 35px;
         cursor: pointer;
@@ -1175,8 +1171,6 @@
         height: 2px;
         background-color: rgb(206, 193, 193);
     }
-<<<<<<< HEAD
-=======
 
     .menu__btn>span::before {
         content: '';
@@ -1236,14 +1230,12 @@
         visibility: visible;
         left: 0;
     }
->>>>>>> 41df2f056b52ae54e7942e524b7619d38f51fc3a
 
     .menu__btn>span::before {
         content: '';
         top: -8px;
     }
 
-<<<<<<< HEAD
     .menu__btn>span::after {
         content: '';
         top: 8px;
@@ -1298,8 +1290,6 @@
         left: 0;
     }
 
-=======
->>>>>>> 41df2f056b52ae54e7942e524b7619d38f51fc3a
     /* Гамбургер меню конец*/
 
 
