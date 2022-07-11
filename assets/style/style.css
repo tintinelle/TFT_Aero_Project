@@ -421,7 +421,7 @@
 
     .container__plane {
         display: flex;
-        flex-direction: inline;
+        flex-direction: row;
         justify-content: center;
     }
 
