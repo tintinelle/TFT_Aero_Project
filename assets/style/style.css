@@ -427,12 +427,12 @@
 
     .main__img-boeing {
         padding-right: 5%;
-        height: 30%;
+        height: 35%;
         width: 50%
     }
 
     .main__img-airbus {
-        padding-left: 4%;
+        padding-left: 3%;
         height: 30%;
         width: 50%;
     }
@@ -485,12 +485,25 @@
         font-size: 1em;
     }
 
-    .main__subtitle_feedback {
+    .main__subtitle_feedback,
+    .main__subtitle_instructor {
         padding-left: 11%;
         margin: 4%;
         font-family: 'Acrom';
         font-weight: 700;
         font-size: 2.3em;
+
+        text-transform: uppercase;
+
+        color: #03008D;
+    }
+
+    .main__subtitle_contacts {
+        padding-left: 11%;
+        margin: 4%;
+        font-family: 'Acrom';
+        font-weight: 700;
+        font-size: 2em;
 
         text-transform: uppercase;
 
