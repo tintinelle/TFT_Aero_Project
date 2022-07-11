@@ -452,6 +452,7 @@
         flex-direction: column;
         text-align: end;
         margin-bottom: 15%;
+        margin-left: 3%;
     }
 
     .list__item_boeing::before {
