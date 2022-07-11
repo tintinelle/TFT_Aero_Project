@@ -1184,12 +1184,14 @@
         position: relative;
         z-index: 2;
         display: flex;
-       
+
     }
+
     .main__subtitle_boeing {
         display: flex;
         align-self: center;
     }
+
     .main__subtitle_you {
         margin-left: -1rem;
         font-size: 2.5em;
@@ -1283,7 +1285,7 @@
     } */
 
     .main__table_boeing {
-        position:absolute;
+        position: absolute;
         top: 110%;
         left: 50%;
         margin-right: -50%;
@@ -1323,6 +1325,7 @@
         font-weight: bold;
         color: #03008D;
     }
+
     /* Саша конец */
 
     /* Ильвина начало */
