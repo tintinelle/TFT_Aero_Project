@@ -402,13 +402,6 @@
 
     /* Катя начало */
 
-    /* @font-face {
-        font-family: "Gilroy";
-        src: url("../fonts/Gilroy-Medium.woff");
-        font-style: normal;
-        font-weight: 500;
-    } */
-
     .main__subtitle_plane {
         text-align: center;
         padding-top: 8%;
@@ -428,7 +421,7 @@
 
     .container__plane {
         display: flex;
-        flex-direction: inline-block;
+        flex-direction: inline;
         justify-content: center;
     }
 
@@ -452,13 +445,13 @@
 
     .main__list_boeing {
         flex-direction: column;
-        padding-bottom: 10%;
+        margin-bottom: 15%;
     }
 
     .main__list_airbus {
         flex-direction: column;
         text-align: end;
-        padding-bottom: 10%;
+        margin-bottom: 15%;
     }
 
     .list__item_boeing::before {
