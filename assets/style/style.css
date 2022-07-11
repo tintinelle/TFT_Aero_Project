@@ -446,7 +446,7 @@
 
     .main__list_boeing {
         flex-direction: column;
-        
+
     }
 
     .main__list_airbus {
@@ -1471,6 +1471,112 @@
     /* Ильвина конец */
 
     /* Катя начало */
+    .main__subtitle_plane {
+        text-align: center;
+        padding-top: 8%;
+        font-family: 'Acrom', Arial, sans-serif;
+        font-weight: 700;
+        font-size: 2.3em;
+
+        text-transform: uppercase;
+
+        color: #03008D;
+    }
+
+    .card_feedback {
+        background-color: rgba(229, 229, 229, 1);
+        border-radius: 1em;
+    }
+
+    .container__plane {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .main__img-boeing {
+        height: auto;
+        max-width: 50%
+    }
+
+    .main__img-airbus {
+        height: auto;
+        max-width: 50%;
+    }
+
+    .main__list {
+        list-style-type: none;
+        margin: 0 auto;
+        display: flex;
+        margin-bottom: 3%;
+    }
+
+    .main__list_boeing {
+        flex-direction: column;
+
+    }
+
+    .main__list_airbus {
+        flex-direction: column;
+        text-align: end;
+        margin-left: 3%;
+    }
+
+    .list__item_boeing::before {
+        content: url('../img/dashPlane.svg');
+    }
+
+    .list__item_airbus::after {
+        content: url('../img/dashPlane.svg');
+    }
+
+    .list__item_airbus,
+    .list__item_boeing {
+        margin: 5%;
+    }
+
+
+    .main__content {
+        margin-left: 14%;
+        background-image: url('../img/mainTextBackground.svg');
+        background-size: 87%;
+        background-repeat: no-repeat;
+        min-height: 20rem;
+    }
+
+    .main__text {
+        font-family: 'Gilroy', Arial, sans-serif;
+        text-align: center;
+        padding-top: 3%;
+        padding-right: 17%;
+        font-size: 1em;
+    }
+
+    .main__subtitle_feedback {
+        padding-left: 11%;
+        margin: 4%;
+        font-family: 'Acrom';
+        font-weight: 700;
+        font-size: 2.3em;
+
+        text-transform: uppercase;
+
+        color: #03008D;
+    }
+
+    .card_feedback {
+        height: 100%;
+    }
+
+    .card-text {
+        font-family: 'Gilroy', Arial, sans-serif;
+    }
+
+
+    .page-item {
+        font-size: 1.5em;
+    }
+
     /* Катя конец */
 
     /* Ирина начало */
