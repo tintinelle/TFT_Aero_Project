@@ -903,11 +903,11 @@
     }
 
     .main__table_boeing-rotate {
+        display: inline-table;
         position: absolute;
-        top: 54%;
+        top: 60%;
         right: 0%;
-        width: 180%;
-        min-height: 20rem;
+        width: 181%;
         border-radius: 25px;
         text-align: center;
         background-color: #E5E5E5;
@@ -916,6 +916,8 @@
 
     .table__header_boeing-rotate {
         font-size: 3em;
+        padding-left: 20%;
+        padding-right: 20%;
         background-color: #6777FF;
         text-transform: uppercase;
         color: white;
@@ -923,7 +925,7 @@
     }
 
     .table__min-rotate {
-        font-size: 1.5em;
+        font-size: 2.5em;
         font-weight: bold;
         border-right: 2px solid black;
     }
