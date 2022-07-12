@@ -669,13 +669,16 @@
         top: 100%;
         width: 50%;
     }
-
+.main__section_boeing {
+    min-height: 50rem;
+}
     .main__background_trainer {
         top: 120%;
         width: 50%;
     }
 
     .main__photoblock {
+        background-size: 110%;
         top: -5%;
     }
 
@@ -683,6 +686,7 @@
         justify-content: flex-end;
         align-items: flex-end;
         padding-bottom: 4%;
+        font-size: 0.8em;
     }
 
     .nav__menu {
@@ -712,9 +716,9 @@
     .main__table_boeing-rotate {
         display: inline-table;
         position: relative;
-        top: 49%;
-        right: 82%;
-        width: 183%;
+        top: 57%;
+        right: 97%;
+        width: 197%;
         border-radius: 25px;
         text-align: center;
         background-color: #E5E5E5;
