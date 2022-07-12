@@ -659,7 +659,9 @@
 
     /* Ирина конец */
 
+    @media screen and (min-width:1024px) {
 
+    }
 @media screen and (min-width:768px) and (max-width: 1023px) {
     /* Саша начало */
 
@@ -1046,7 +1048,7 @@
         align-items: center;
         position: fixed;
         top: 50px;
-        left: 90%;
+        left: 80%;
         width: 35px;
         height: 35px;
         cursor: pointer;
@@ -1190,6 +1192,8 @@
         font-weight: 700;
         position: relative;
         min-height: 50rem;
+        display: block;
+        margin-left: 0%;
     }
 
     .main__textblock {
@@ -1252,6 +1256,7 @@
     }
 
     .nav__hamburger {
+        display: block;
         position: relative;
         min-height: 196px;
     }
