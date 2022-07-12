@@ -814,40 +814,6 @@
 @media screen and (max-width: 767px) {
 
     /* Саша начало */
-    @font-face {
-        font-family: "Datcub";
-        src: url("../fonts/DatcubLight.ttf");
-        font-weight: 300;
-    }
-
-    @font-face {
-        font-family: "Acrom";
-        src: url("../fonts/Acrom-Bold.woff");
-        font-style: normal;
-        font-weight: 700;
-    }
-
-    @font-face {
-        font-family: "Acrom";
-        src: url("../fonts/Acrom-ExtraBold.woff");
-        font-style: normal;
-        font-weight: 800;
-    }
-
-    @font-face {
-        font-family: "Gilroy";
-        src: url("../fonts/Gilroy-Semibold600.woff");
-        font-style: normal;
-        font-weight: 600;
-    }
-
-    @font-face {
-        font-family: "Gilroy";
-        src: url("../fonts/Gilroy-Medium500.woff");
-        font-style: normal;
-        font-weight: 500;
-    }
-
 
     /* Гамбургер меню начало*/
 
@@ -947,63 +913,34 @@
 
     .subtitle__simulator {
         font-size: 1em;
-        font-family: "Acrom";
-        font-weight: 700;
-        position: relative;
-        z-index: 2;
         padding: 5%;
     }
 
     .main__simulator {
-        text-align: center;
-        background-image: url('../img/paint.png');
         background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
         margin-bottom: 15%;
     }
 
     .main__background_simulator {
         display: none;
-        background-repeat: no-repeat;
-        position: absolute;
-        top: 68%;
-        right: 0%;
-        z-index: 0;
-    }
-
-    .main__colortext {
-        color: #6777FF;
     }
 
     .subtitle__trainer {
-        font-family: "Acrom";
         font-size: 1.3em;
-        font-weight: 700;
-        color: #03008D;
-        margin-left: 11%;
     }
 
     .main__img_trainer {
-        display: block;
         margin: 0 auto;
         width: 103%;
         margin-bottom: 20%;
     }
 
     .main__background_trainer {
-        background-repeat: no-repeat;
-        position: absolute;
         top: 200%;
-        left: 0%;
-        z-index: 0;
         width: 20rem;
     }
 
     .main__section_boeing {
-        font-family: "Acrom";
-        font-weight: 700;
-        position: relative;
         min-height: 50rem;
         display: block;
         margin-left: 0%;
@@ -1011,10 +948,6 @@
 
     .main__textblock {
         display: none;
-        margin-top: 80%;
-        position: relative;
-        z-index: 2;
-
     }
 
     .main__textblock_mobile {
@@ -1053,19 +986,8 @@
 
 
     .main__photoblock {
-        background-image: url('../img/man-background.jpg');
         min-height: 40rem;
         margin-top: 0%;
-        background-size: 103%;
-        background-repeat: no-repeat;
-        position: relative;
-        z-index: 1;
-    }
-
-    .header {
-        background-color: #6777FF;
-        position: relative;
-        z-index: 2;
     }
 
     .nav__hamburger {
@@ -1076,13 +998,6 @@
 
     .nav {
         display: none;
-        justify-content: center;
-        align-items: center;
-        min-height: 196px;
-    }
-
-    .nav__logo {
-        margin-right: 37px;
     }
 
     .nav__logo_hamburger {
@@ -1091,80 +1006,14 @@
         margin-top: 15%;
     }
 
-    .nav__menu {
-        color: white;
-        text-decoration: none;
-        margin-right: 31px;
-        font-size: 0.8em;
-        margin-left: 10px;
-    }
-
-    .nav__contacts {
-        align-self: center;
-        margin-top: -2%;
-    }
-
-    .nav__address {
-        color: white;
-        text-transform: uppercase;
-        font-size: 0.8em;
-        text-align: right;
-        margin-bottom: 10px;
-        padding-right: 100px;
-    }
-
-    .nav__phone {
-        margin-left: 100px;
-        font-weight: bold;
-    }
-
-    .nav__phone_img {
-        margin-right: 20px;
-    }
-
-    .main__gradient-block {
-        display: none;
-        position: absolute;
-    }
-
     .main__table_boeing {
-        position: absolute;
         left: 5%;
         width: 90%;
-        min-height: 20rem;
-        border-radius: 25px;
-        text-align: center;
-        background-color: #E5E5E5;
-        z-index: 5;
         top: 79%;
-    }
-
-
-    .table__header_boeing {
-        font-size: 1.5em;
-        background-color: #6777FF;
-        text-transform: uppercase;
-        color: white;
-        border-radius: 25px 25px 0 0;
-    }
-
-    .table__row_boeing {
-        background: url(../img/Line\ 1.svg) center bottom / 80% no-repeat;
-    }
-
-    .table__min {
-        font-size: 1.5em;
-        font-weight: bold;
     }
 
     .main__table_boeing-rotate {
         display: none;
-    }
-
-    .table__cost {
-        font-size: 1.5em;
-        font-weight: bold;
-        color: #03008D;
     }
 
     /* Саша конец */
