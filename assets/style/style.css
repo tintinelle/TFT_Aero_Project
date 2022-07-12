@@ -340,7 +340,7 @@
         background: url(../img/background_certificate.png) 0% 0% / 100% no-repeat;
         position: relative;
 
-        min-height: 70rem;
+        min-height: 60rem;
         padding-top: 6%;
 
         text-transform: uppercase;
@@ -349,7 +349,7 @@
     .main__section-man {
         background: url(../img/dad_son_background.svg) 0% 0% / 100% no-repeat;
         position: absolute;
-        top: 3%;
+        top: 4%;
         left: 7%;
         width: 45%;
         min-height: 55rem;
@@ -375,7 +375,6 @@
 
         background-color: #E5E5E5;
     }
-
 
     .table__header {
         border-radius: 25px 25px 0 0;
@@ -436,33 +435,33 @@
     }
 
     .main__img-boeing {
-        padding-right: 5%;
-        height: 35%;
         width: 50%
     }
 
     .main__img-airbus {
-        padding-left: 3%;
-        height: 30%;
         width: 50%;
+        padding-top: 3%;
     }
 
     .main__list {
         list-style-type: none;
-        margin: 0 auto;
+        margin: 0 auto 3% 0;
         display: flex;
-        margin-bottom: 3%;
+
+        font-family: 'Gilroy', Arial, sans-serif;
+        font-weight: 600;
+        font-size: 1.2em;
     }
 
     .main__list_boeing {
         flex-direction: column;
-
+        width: 45%;
     }
 
     .main__list_airbus {
         flex-direction: column;
         text-align: end;
-        margin-left: 3%;
+        width: 45%;
     }
 
     .list__item_boeing::before {
@@ -475,24 +474,24 @@
 
     .list__item_airbus,
     .list__item_boeing {
-        margin: 10px;
+        margin-bottom: 5%;
     }
 
-
     .main__content {
-        margin-left: 14%;
         background-image: url('../img/mainTextBackground.svg');
-        background-size: 87%;
+        background-size: 100%;
         background-repeat: no-repeat;
         min-height: 20rem;
     }
 
     .main__text {
-        font-family: 'Gilroy', Arial, sans-serif;
-        text-align: center;
+        margin-left: 14%;
         padding-top: 3%;
         padding-right: 17%;
-        font-size: 1em;
+
+        font-family: 'Gilroy', Arial, sans-serif;
+        font-weight: 500;
+        font-size: 1.2em;
     }
 
     .main__subtitle_feedback,
@@ -782,6 +781,10 @@
         padding: 1% 6% 0 6%;
     }
 
+    .main__section_certificate {
+        min-height: 40rem;
+    }
+
     .main__subtitle_certificate {
         font-size: 1.3em;
     }
@@ -804,6 +807,9 @@
     /* Ильвина конец */
 
     /* Катя начало */
+    .main__list {
+        font-size: 1em;
+    }
     /* Катя конец */
 
     /* Ирина начало */
@@ -1021,7 +1027,7 @@
     /* Ильвина начало */
     .main__subtitle_fly-program {
         margin-left: 3%;
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .pagination__fly-program {
@@ -1031,6 +1037,7 @@
 
     .container_fly-program {
         margin-left: 4%;
+        margin-bottom: -4%;
     }
 
     .card__fly-program_dubai {
@@ -1050,7 +1057,8 @@
     }
 
     .main__section_certificate {
-        background: url(../img/background_mobile_certificate.png) top 20% center / 100% no-repeat;
+        background: url(../img/background_mobile_certificate.png) top 30% center / 100% no-repeat;
+        min-height: 45rem;
     }
 
     .main__section-man { 
@@ -1070,7 +1078,7 @@
         width: 90%;
         min-height: 15rem;
         margin-left: 5%;
-        margin-top: 98%;
+        margin-top: 90%;
     }
 
     .table__header {
@@ -1093,7 +1101,7 @@
         padding-top: 8%;
         font-family: 'Acrom', Arial, sans-serif;
         font-weight: 700;
-        font-size: 2.3em;
+        font-size: 1.3em;
 
         text-transform: uppercase;
 
@@ -1126,6 +1134,8 @@
         margin: 0 auto;
         display: flex;
         margin-bottom: 3%;
+
+        font-size: 0.8em;
     }
 
     .main__list_boeing {
