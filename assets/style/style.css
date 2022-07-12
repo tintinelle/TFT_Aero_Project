@@ -480,6 +480,7 @@
     .main__content {
         background-image: url('../img/mainTextBackground.svg');
         background-size: 100%;
+        background-position: 50% 10%;
         background-repeat: no-repeat;
         min-height: 20rem;
     }
@@ -491,7 +492,7 @@
 
         font-family: 'Gilroy', Arial, sans-serif;
         font-weight: 500;
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .main__subtitle_feedback,
@@ -810,6 +811,15 @@
     .main__list {
         font-size: 1em;
     }
+
+    .main__content {
+        background-size: cover;
+        background-position: 30% 50%;
+    }
+
+    .card__feedback_third {
+        display: none;
+    }
     /* Катя конец */
 
     /* Ирина начало */
@@ -826,7 +836,6 @@
     #menu__toggle {
         opacity: 0;
     }
-
 
     .menu__btn {
         display: flex;
@@ -916,7 +925,6 @@
 
     /* Гамбургер меню конец*/
 
-
     .subtitle__simulator {
         font-size: 1em;
         padding: 5%;
@@ -989,7 +997,6 @@
         color: #6777FF;
         margin-top: -1.7rem;
     }
-
 
     .main__photoblock {
         min-height: 40rem;
@@ -1111,18 +1118,44 @@
     }
 
     .main__list {
+        width: 95%;
         margin-bottom: 3%;
+        padding-left: 5%;
 
         font-size: 0.8em;
     }
 
     .main__list_airbus {
-        margin-left: 3%;
+        display: none;
+    }
+
+    .list__item_boeing::before {
+        content: url('../img/line_mobile.svg');
+    }
+
+    .main__content {
+        background-image: url('../img/main_text_background_mobile.png');
+        min-height: 13rem;
     }
 
     .main__text {
-        font-size: 1em;
+        font-size: 0.8em;
     }
+
+    .main__subtitle_feedback {
+        padding-left: 1%;
+        font-size: 1.3em;
+    }
+
+    .card_feedback {
+        font-size: 0.9em;
+    }
+
+    .card__feedback_second,
+    .card__feedback_third {
+        display: none;
+    }
+
     /* Катя конец */
 
     /* Ирина начало */
