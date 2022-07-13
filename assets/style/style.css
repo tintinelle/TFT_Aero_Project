@@ -1,3 +1,7 @@
+* {
+    outline: 1px solid red;
+    }
+
 /* Саша начало */
     .subtitle__simulator {
         font-size: 3em;
@@ -1196,6 +1200,12 @@
 
     .card__feedback_second,
     .card__feedback_third {
+        display: none;
+    }
+
+    .item__instructor_second,
+    .item__instructor_third,
+    .item__instructor_fourth {
         display: none;
     }
 
