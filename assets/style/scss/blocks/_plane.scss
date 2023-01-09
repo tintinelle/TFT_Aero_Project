@@ -1,0 +1,133 @@
+.main__subtitle_plane {
+    text-align: center;
+    padding-top: 8%;
+    font-family: 'Acrom', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 2.3em;
+
+    text-transform: uppercase;
+
+    color: #03008D;
+}
+.container__plane {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main__img-boeing {
+    width: 50%
+}
+
+.main__img-airbus {
+    width: 50%;
+    padding-top: 3%;
+}
+
+.main__list {
+    list-style-type: none;
+    margin: 0 auto 3% 0;
+    display: flex;
+
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.main__list_boeing {
+    flex-direction: column;
+    width: 45%;
+}
+
+.main__list_airbus {
+    flex-direction: column;
+    text-align: end;
+    width: 45%;
+}
+
+.list__item_boeing::before {
+    content: url('../img/dashPlane.svg');
+}
+
+.list__item_airbus::after {
+    content: url('../img/dashPlane.svg');
+}
+
+.list__item_airbus,
+.list__item_boeing {
+    margin-bottom: 5%;
+}
+
+
+
+.main__content {
+    background-image: url('../img/mainTextBackground.svg');
+    background-size: 100%;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    min-height: 20rem;
+}
+
+.main__text {
+    margin-left: 14%;
+    padding-top: 3%;
+    padding-right: 17%;
+
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+
+    .main__list {
+        font-size: 1em;
+    }
+
+    .main__content {
+        background-size: cover;
+        background-position: 30% 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main__subtitle_plane {
+        font-size: 1.3em;
+    }
+
+    .main__img-boeing {
+        height: auto;
+        max-width: 50%
+    }
+
+    .main__img-airbus {
+        height: auto;
+        max-width: 50%;
+    }
+
+    .main__list {
+        width: 95%;
+        margin-bottom: 3%;
+        padding-left: 5%;
+
+        font-size: 0.8em;
+    }
+
+    .main__list_airbus {
+        display: none;
+    }
+
+    .list__item_boeing::before {
+        content: url('../img/line_mobile.svg');
+    }
+
+    .main__content {
+        background-image: url('../img/main_text_background_mobile.png');
+        min-height: 13rem;
+    }
+
+    .main__text {
+        font-size: 0.8em;
+    }
+
+}

@@ -1,1216 +1,1108 @@
-* {
-    outline: 1px solid red;
-    }
-
-/* Саша начало */
-    .subtitle__simulator {
-        font-size: 3em;
-        font-family: "Acrom";
-        font-weight: 700;
-        position: relative;
-        z-index: 2;
-    }
-
-    .main__simulator {
-        text-align: center;
-        background-image: url('../img/paint.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        min-height: 227px;
-        margin-bottom: 180px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .main__background_simulator {
-        background-repeat: no-repeat;
-        position: absolute;
-        top: 68%;
-        right: 0%;
-        z-index: 0;
-    }
-
-    .main__colortext {
-        color: #6777FF;
-    }
-
-    .subtitle__trainer {
-        font-family: "Acrom";
-        font-size: 2.3em;
-        font-weight: 700;
-        color: #03008D;
-        margin-left: 11%;
-    }
-
-    .main__img_trainer {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 100px;
-    }
-
-    .main__background_trainer {
-        background-repeat: no-repeat;
-        position: absolute;
-        top: 143%;
-        left: 0%;
-        z-index: 0;
-    }
-
-    .main__section_boeing {
-        font-family: "Acrom";
-        font-weight: 700;
-        position: relative;
-        display: grid;
-        grid-template-columns: 5fr 7fr;
-        grid-template-rows: 1fr;
-        min-height: 943px;
-        margin-bottom: 100px;
-    }
-
-    .main__textblock {
-        margin-left: 30%;
-        margin-top: 5%;
-        position: relative;
-        z-index: 5;
-    }
-
-    .main__textblock_mobile {
-        display: none;
-    }
-
-    .main__subtitle_you {
-        margin-left: -1rem;
-        font-size: 6em;
-        font-weight: 700;
-        color: #6777FF;
-        margin-bottom: -8%;
-    }
-
-    .main__subtitle_try {
-        font-size: 1.6em;
-        color: black;
-    }
-
-    .main__subtitle_manage {
-        font-size: 2em;
-        color: black;
-        margin-top: -1.4rem;
-    }
-
-    .main__subtitle_jet {
-        font-size: 2em;
-        font-weight: 700;
-        color: #6777FF;
-        margin-top: -1.7rem;
-    }
-
-    .main__photoblock {
-        background-image: url('../img/man-background.jpg');
-        background-size: 103%;
-        background-repeat: no-repeat;
-        position: relative;
-        grid-row: 1 / 2;
-        grid-column: 2 / 3;
-        z-index: 1;
-        top: -15%;
-    }
-
-    .header {
-        background-color: #6777FF;
-        position: relative;
-        z-index: 2;
-    }
-
-    .nav__hamburger {
-        display: none;
-    }
-
-    .nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 196px;
-    }
-
-    .nav__logo {
-        margin-right: 37px;
-    }
-
-    .nav__menu {
-        color: white;
-        text-decoration: none;
-        margin-right: 31px;
-        font-size: 0.8em;
-        margin-left: 10px;
-    }
-
-    .nav__contacts {
-        align-self: center;
-        margin-top: -2%;
-    }
-
-    .nav__address {
-        color: white;
-        text-transform: uppercase;
-        font-size: 0.8em;
-        text-align: right;
-        margin-bottom: 10px;
-        padding-right: 100px;
-    }
-
-    .nav__phone {
-        margin-left: 100px;
-        font-weight: bold;
-    }
-
-    .nav__phone_img {
-        margin-right: 20px;
-    }
-
-    .main__gradient-block {
-        position: absolute;
-        right: 40%;
-        top: 0;
-        background-size: 85%;
-        background-repeat: no-repeat;
-    }
-
-    .main__table_boeing {
-        position: absolute;
-        top: 66%;
-        right: 90%;
-        width: 60%;
-        min-height: 20rem;
-        border-radius: 25px;
-        text-align: center;
-        background-color: #E5E5E5;
-        z-index: 5;
-    }
-
-
-    .table__header_boeing {
-        font-size: 1.5em;
-        background-color: #6777FF;
-        text-transform: uppercase;
-        color: white;
-        border-radius: 25px 25px 0 0;
-    }
-
-    .table__row_boeing {
-        background: url(../img/Line\ 1.svg) center bottom / 80% no-repeat;
-    }
-
-    .table__min {
-        font-size: 1.5em;
-        font-weight: bold;
-    }
-
-    .main__table_boeing-rotate {
-        display: none;
-    }
-
-    .table__cost {
-        font-size: 1.5em;
-        font-weight: bold;
-        color: #03008D;
-    }
-
-    /* Саша конец */
-
-    /* Ильвина начало */
-
-    @font-face {
-        font-family: "Datcub";
-        src: url("../fonts/DatcubLight.ttf");
-        font-weight: 300;
-    }
-
-    @font-face {
-        font-family: "Acrom";
-        src: url("../fonts/Acrom-Bold.woff");
-        font-style: normal;
-        font-weight: 700;
-    }
-
-    @font-face {
-        font-family: "Acrom";
-        src: url("../fonts/Acrom-ExtraBold.woff");
-        font-style: normal;
-        font-weight: 800;
-    }
-
-    @font-face {
-        font-family: "Gilroy";
-        src: url("../fonts/Gilroy-Semibold600.woff");
-        font-style: normal;
-        font-weight: 600;
-    }
-
-    @font-face {
-        font-family: "Gilroy";
-        src: url("../fonts/Gilroy-Medium500.woff");
-        font-style: normal;
-        font-weight: 500;
-    }
-
-    .main__section_fly-program {
-        background:
-            url(../img/background_circles_fly-program.svg) top -250% center / 100% no-repeat;
-    }
-
-    .main__subtitle_fly-program {
-        margin-left: 12%;
-
-        font-family: 'Acrom', sans-serif;
-        font-weight: 700;
-        font-size: 2.3em;
-        text-transform: uppercase;
-
-        color: #03008D;
-    }
-
-    .pagination__fly-program {
-        margin: 3% auto 2% 11%;
-    }
-
-    .pagination__page-number {
-        font-family: "Datcub", sans-serif;
-        font-weight: 300;
-        font-size: larger;
-
-        color: #6777FF;
-    }
-
-    .pagination__page-flip,
-    .pagination__page-number_dark {
-        color: #03008D;
-    }
-
-    .container_fly-program {
-        padding: 0 10% 0 0;
-        margin-bottom: 10%;
-        margin-left: 12%;
-    }
-
-    .card_fly-program {
-        width: 95%;
-
-        border: none;
-    }
-
-    .card-header:first-child {
-        border-radius: 30px 30px 0 0;
-    }
-
-    .card-header_fly-program {
-        padding: 5% 5% 4% 7%;
-        font-family: 'Acrom', sans-serif;
-        font-weight: 700;
-        font-size: 1.5em;
-        text-transform: uppercase;
-
-        background-color: #6777FF;
-        color: #FFF;
-    }
-
-    .card-body_fly-program {
-        padding: 0;
-    }
-
-    .card-text_fly-program {
-        margin-top: 6%;
-
-        font-family: 'Gilroy', sans-serif;
-        font-weight: 500;
-
-        color: #000;
-    }
-
-    .btn_fly-program {
-        padding: 0 6% 1% 6%;
-        border-radius: 100px;
-
-        font-family: 'Gilroy', sans-serif;
-        font-weight: 500;
-        font-size: 0.7em;
-
-        background-color: #6777FF;
-        color: #FFF;
-    }
-
-    .main__section_certificate {
-        background: url(../img/background_certificate.png) 0% 0% / 100% no-repeat;
-        position: relative;
-
-        min-height: 60rem;
-        padding-top: 6%;
-
-        text-transform: uppercase;
-    }
-
-    .main__section-man {
-        background: url(../img/dad_son_background.svg) 0% 0% / 100% no-repeat;
-        position: absolute;
-        top: 4%;
-        left: 7%;
-        width: 45%;
-        min-height: 55rem;
-    }
-
-    .main__subtitle_certificate {
-        margin: 15% 15% 1% 47%;
-
-        font-family: 'Gilroy', sans-serif;
-        font-weight: 600;
-        font-size: 1.7em;
-
-        color: white;
-    }
-
-    .main__table_second {
-        width: 32%;
-        min-height: 18rem;
-        margin-left: 47%;
-        border-radius: 25px;
-
-        text-align: center;
-
-        background-color: #E5E5E5;
-    }
-
-    .table__header {
-        border-radius: 25px 25px 0 0;
-
-        font-family: 'Acrom', sans-serif;
-        font-weight: 700;
-        font-size: 1.4em;
-        line-height: 250%;
-
-        background-color: #6777FF;
-        color: #FFF;
-    }
-
-    .table__row {
-        background: url(../img/Line\ 1.svg) center bottom / 80% no-repeat;
-    }
-
-    .table__min_second {
-        font-family: 'Acrom', sans-serif;
-        font-weight: 800;
-        font-size: 1.2em;
-
-        color: #000;
-    }
-
-    .table__cost_second {
-        font-family: 'Acrom', sans-serif;
-        font-weight: 700;
-        font-size: 1.2em;
-    }
-
-    /* 
-Ильвина конец */
-
-    /* Катя начало */
-
-    .main__subtitle_plane {
-        text-align: center;
-        padding-top: 8%;
-        font-family: 'Acrom', Arial, sans-serif;
-        font-weight: 700;
-        font-size: 2.3em;
-
-        text-transform: uppercase;
-
-        color: #03008D;
-    }
-
-    .card_feedback {
-        background-color: rgba(229, 229, 229, 1);
-        border-radius: 1em;
-    }
-
-    .container__plane {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .main__img-boeing {
-        width: 50%
-    }
-
-    .main__img-airbus {
-        width: 50%;
-        padding-top: 3%;
-    }
-
-    .main__list {
-        list-style-type: none;
-        margin: 0 auto 3% 0;
-        display: flex;
-
-        font-family: 'Gilroy', Arial, sans-serif;
-        font-weight: 600;
-        font-size: 1.2em;
-    }
-
-    .main__list_boeing {
-        flex-direction: column;
-        width: 45%;
-    }
-
-    .main__list_airbus {
-        flex-direction: column;
-        text-align: end;
-        width: 45%;
-    }
-
-    .list__item_boeing::before {
-        content: url('../img/dashPlane.svg');
-    }
-
-    .list__item_airbus::after {
-        content: url('../img/dashPlane.svg');
-    }
-
-    .list__item_airbus,
-    .list__item_boeing {
-        margin-bottom: 5%;
-    }
-
-    .main__content {
-        background-image: url('../img/mainTextBackground.svg');
-        background-size: 100%;
-        background-position: 50% 10%;
-        background-repeat: no-repeat;
-        min-height: 20rem;
-    }
-
-    .main__text {
-        margin-left: 14%;
-        padding-top: 3%;
-        padding-right: 17%;
-
-        font-family: 'Gilroy', Arial, sans-serif;
-        font-weight: 500;
-        font-size: 1em;
-    }
-
-    .main__subtitle_feedback,
-    .main__subtitle_instructor {
-        padding-left: 11%;
-        margin: 4%;
-        font-family: 'Acrom';
-        font-weight: 700;
-        font-size: 2.3em;
-
-        text-transform: uppercase;
-
-        color: #03008D;
-    }
-
-    .main__subtitle_contacts {
-        padding-left: 11%;
-        margin: 4%;
-        font-family: 'Acrom';
-        font-weight: 700;
-        font-size: 2em;
-
-        text-transform: uppercase;
-
-        color: #03008D;
-    }
-
-    .card_feedback {
-        height: 100%;
-    }
-
-    .card-text {
-        font-family: 'Gilroy', Arial, sans-serif;
-    }
-
-
-    .page-item {
-        font-size: 1.5em;
-    }
-
-    /* 
-Катя конец */
-
-
-
-    /* Ирина начало */
-    .all__instructors {
-        display: flex;
-        justify-content: space-around;
-        width: 70%;
-    }
-
-    .item__instructor {
-        background-color: #6777FF;
-        margin: 0px 15px 0px 15px;
-        border-radius: 20px;
-        height: 390px;
-    }
-
-    .item__instructor a {
-        color: white;
-    }
-
-    .container__instructor {
-        display: flex;
-        justify-content: center;
-    }
-
-    .name__instructor {
-        font-size: 24px;
-        font-weight: 700;
-    }
-
-    .description__instructor {
-        font-size: 24px;
-        font-weight: 400;
-    }
-
-    .name__instructor,
-    .description__instructor {
-        margin-left: 20px;
-    }
-
-    .ticket__certificate {
-        display: flex;
-        justify-content: center;
-        padding-top: 5vh;
-    }
-
-    .ticket__butt button {
-        background-color: #6777FF;
-        color: white;
-        font-size: 44px;
-        border-radius: 25px;
-        width: 600px;
-        border: none;
-    }
-
-    .header__footer {
-        font-size: 25px;
-        color: black;
-    }
-
-    .main__footer {
-        border: 1px solid black;
-        /* display: flex; */
-        justify-content: center;
-        background-color: #6777FF;
-        height: 1700px;
-        border-radius: 40px 40px 0px 0px;
-    }
-
-    .foto__vitrina {
-        margin-top: 54px;
-        background-image: url('../img/tft.png');
-        background-repeat: no-repeat;
-        height: 440px;
-        background-size: cover;
-    }
-
-    .map__footer {
-        background-image: url('../img/map.png');
-        background-repeat: no-repeat;
-        height: 628px;
-    }
-
-    .footer__down {
-        display: flex;
-        justify-content: space-around;
-        color: white;
-        font-size: 30px;
-    }
-
-    .footer__contacts {
-        text-align: left;
-        margin-top: 60px;
-        text-transform: uppercase;
-    }
-
-    .footer__logo {
-        text-align: right;
-    }
-
-    .footer__email {
-        margin-top: 100px;
-    }
-
-    .footer__phone {
-        margin-top: 60px;
-    }
-
-    .footer__company__logo {
-        margin-top: 60px;
-    }
-
-    .footer__subscribe {
-        margin-top: 100px;
-    }
-
-    .footer__social {
-        margin-top: 60px;
-    }
-
-    /* Ирина конец */
-
-@media screen and (min-width:768px) and (max-width: 1023px) {
-    /* Саша начало */
-
-    .subtitle__simulator {
-        font-size: 2.3em;
-    }
-
-    .main__background_simulator {
-        top: 100%;
-        width: 50%;
-    }
-.main__section_boeing {
-    min-height: 50rem;
+@charset "UTF-8";
+@font-face {
+  font-family: "Datcub";
+  src: url("../fonts/DatcubLight.ttf");
+  font-weight: 300;
 }
-    .main__background_trainer {
-        top: 120%;
-        width: 50%;
-    }
+@font-face {
+  font-family: "Acrom";
+  src: url("../fonts/Acrom-Bold.woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Acrom";
+  src: url("../fonts/Acrom-ExtraBold.woff");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Semibold600.woff");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Medium500.woff");
+  font-style: normal;
+  font-weight: 500;
+}
+.header {
+  background-color: #6777FF;
+  position: relative;
+  z-index: 2;
+}
 
-    .main__photoblock {
-        background-size: 110%;
-        top: -5%;
-    }
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 196px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  position: relative;
+  padding: 40px 20px 35px 40px;
+}
+.nav__logo {
+  align-self: center;
+}
+.nav__img {
+  width: 97px;
+}
+.nav__menu {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+.nav__contacts {
+  text-align: right;
+  align-self: flex-start;
+}
+.nav__phone {
+  font-weight: bold;
+}
+.nav__phone_img {
+  width: 15px;
+  margin-right: 20px;
+}
+.nav__hamburger {
+  display: none;
+}
 
-    .nav {
-        justify-content: flex-end;
-        align-items: flex-end;
-        padding-bottom: 4%;
-        font-size: 0.8em;
-    }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav {
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 0.8em;
+    flex-wrap: nowrap;
+    min-height: 183px;
+  }
+  .nav__contacts {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+  }
+  .nav__phone {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* Гамбургер меню начало*/
+  #menu__toggle {
+    opacity: 0;
+  }
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 82%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(206, 193, 193);
+  }
+  .menu__btn > span::before {
+    content: "";
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: "";
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #6777FF;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+  .menu__btn > span::before {
+    content: "";
+    top: -8px;
+  }
+  /* Гамбургер меню конец*/
+  .nav__hamburger {
+    display: block;
+    position: relative;
+    min-height: 196px;
+  }
+  .nav {
+    display: none;
+  }
+  .nav__logo-hamburger {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 15%;
+  }
+}
+.main__presentation {
+  min-height: 1000px;
+  background-image: url("../img/man-background.jpg");
+  background-size: 65%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
 
-    .nav__menu {
-        margin-left: 5%;
-    }
+.main__shading {
+  min-height: 1000px;
+  background: linear-gradient(to right, white 35%, transparent 68% 30%);
+  z-index: 1;
+  padding-left: 226px;
+  position: relative;
+}
 
-    .nav__contacts {
-        position: absolute;
-        align-self: flex-start;
-        margin-top: 3%;
-        margin-right: -10%;
-    }
+.main__banner {
+  padding-top: 29px;
+  padding-bottom: 57px;
+}
 
-    .nav__phone {
-        margin-left: 100px;
-    }
+.main__banner-bottom {
+  padding-left: 3px;
+}
 
-    .main__gradient-block {
-        left: -40%; 
-        height: 50rem; 
-    }
+.main__subtitle_you {
+  margin: 0;
+  font-size: 13em;
+  font-weight: 700;
+  color: #6777FF;
+  line-height: 1;
+}
 
-    .main__table_boeing {
-        display: none;
-    }
+.main__subtitle_try {
+  font-size: 3em;
+  color: black;
+  margin: 0 0 0 9px;
+  line-height: 1;
+}
 
-    .main__table_boeing-rotate {
-        display: inline-table;
-        position: relative;
-        top: 57%;
-        right: 97%;
-        width: 197%;
-        border-radius: 25px;
-        text-align: center;
-        background-color: #E5E5E5;
-        z-index: 5;
-    }
+.main__subtitle_manage {
+  font-size: 6em;
+  font-weight: normal;
+  color: black;
+  margin: 0;
+  line-height: 1;
+}
 
-    .table__header_boeing-rotate {
-        font-size: 3em;
-        padding-left: 20%;
-        padding-right: 20%;
-        background-color: #6777FF;
-        text-transform: uppercase;
-        color: white;
-        border-radius: 25px 25px 0 0;
-    }
+.main__subtitle_jet {
+  font-size: 6em;
+  font-weight: 700;
+  color: #6777FF;
+  margin: 0;
+  line-height: 1;
+}
 
-    .table__min-rotate {
-        font-size: 2.5em;
-        font-weight: bold;
-        border-right: 2px solid black;
-    }
+@media screen and (min-width: 1120px) and (max-width: 1399px) {
+  .main__presentation {
+    min-height: 700px;
+    background-size: 76%;
+  }
+  .main__shading {
+    min-height: 700px;
+    padding-left: 126px;
+  }
+}
+@media screen and (min-width: 570px) and (max-width: 1119px) {
+  .main__presentation {
+    min-height: 400px;
+    background-size: 76%;
+    background-position: top right;
+  }
+  .main__shading {
+    min-height: 400px;
+    padding-left: 0;
+  }
+  .main__banner {
+    padding-left: 15px;
+  }
+  .main__subtitle_you {
+    font-size: 9.8em;
+  }
+  .main__subtitle_try {
+    font-size: 2em;
+    margin: 0 0 0 6px;
+  }
+  .main__banner-bottom {
+    padding-left: 5px;
+  }
+  .main__subtitle_manage {
+    font-size: 4em;
+  }
+  .main__subtitle_jet {
+    font-size: 4em;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 569px) {
+  .main__presentation {
+    min-height: 350px;
+    background-size: cover;
+  }
+  .main__shading {
+    min-height: 350px;
+    background: linear-gradient(transparent 60%, white 99%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  .main__banner {
+    padding-left: 0;
+    padding-top: 0;
+    display: flex;
+  }
+  .main__banner-bottom {
+    padding-left: 5px;
+  }
+  .main__subtitle_you {
+    font-size: 3.5em;
+    line-height: 0.85;
+  }
+  .main__subtitle_try {
+    font-size: 0.8em;
+    margin: 5px 0 0 3px;
+  }
+  .main__subtitle_manage {
+    font-size: 2.1em;
+  }
+  .main__subtitle_jet {
+    font-size: 2.1em;
+  }
+}
+.price {
+  max-width: 710px;
+  min-height: 40px;
+  border-radius: 30px;
+  text-align: center;
+  overflow: hidden;
+}
 
-    .table__cost-rotate {
-        font-size: 1.5em;
-        font-weight: bold;
-        color: #03008D;
-        border-right: 2px solid black;
-    }
+.price_bottom {
+  position: relative;
+  top: 0;
+  left: 750px;
+}
 
-    .table__border-rotate {
-        border-right: none;
-    }
+.price__item {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
 
-    /* Саша конец */
+.price__item:nth-child(2) {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
 
-    /* Ильвина начало */
+.price__wrap {
+  background-color: #E5E5E5;
+  padding: 0 33px;
+}
 
-    .main__subtitle_fly-program {
-        margin-left: 3%;
+.price__text {
+  font-family: "Acrom";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 47px;
+  text-transform: uppercase;
+  padding: 36px 0 23px 0;
+}
 
-        font-size: 1.5em;
-    }
+.price__text_title {
+  background-color: #6777FF;
+  color: white;
+  padding: 18px 0 7px 0;
+}
 
-    .pagination__fly-program {
-        margin: 3% auto 2% 2%;
-    }
+.price__text_time {
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 56px;
+  color: black;
+}
 
-    .container_fly-program {
-        margin-left: 1%;
-    }
+.price__text_pay {
+  font-size: 47px;
+  line-height: 56px;
+  color: #03008D;
+}
 
-    .card-header_fly-program {
-        font-size: 1em;
-    }
+@media screen and (min-width: 1120px) and (max-width: 1399px) {
+  .price {
+    max-width: 640px;
+  }
+  .price__text {
+    padding: 24px 0 32px 0;
+    font-size: 36px;
+    line-height: 43px;
+  }
+  .price__text_title {
+    padding: 18px 0 11px 0;
+  }
+  .price__text_time {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .price__text_pay {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+@media screen and (min-width: 570px) and (max-width: 1119px) {
+  .price {
+    max-width: 100%;
+    text-align: left;
+    position: relative;
+    top: 40px;
+  }
+  .price__item {
+    width: 100%;
+    display: block;
+    padding-left: 35px;
+  }
+  .price__item:nth-child(2) {
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-top: none;
+    border-bottom: none;
+  }
+  .price__wrap {
+    background-color: #E5E5E5;
+    padding: 33px 0;
+    display: flex;
+  }
+  .price__text {
+    font-size: 36px;
+    line-height: 43px;
+    padding: 0px 0 20px 0;
+  }
+  .price__text_title {
+    padding: 18px 0 11px 45px;
+  }
+  .price__text_time {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .price__text_pay {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .price_bottom {
+    max-width: 343px;
+    left: 350px;
+  }
+  .price__text_bottom {
+    padding: 13px 0 20px 0;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .price__text_bottom-title {
+    padding: 12px 0 11px 18px;
+  }
+  .price__wrap_bottom {
+    display: block;
+    padding: 19px 33px;
+  }
+  .price__item_bottom {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 0;
+  }
+  .price__item_bottom:nth-child(2) {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: none;
+    border-right: none;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 569px) {
+  .price {
+    max-width: 90%;
+    min-width: 200px;
+    min-height: 40px;
+    position: absolute;
+    bottom: -200px;
+  }
+  .price__wrap {
+    background-color: #E5E5E5;
+    padding: 0 17px;
+  }
+  .price__text {
+    font-size: 24px;
+    line-height: 29px;
+    padding: 24px 0 15px 0;
+  }
+  .price__text_title {
+    background-color: #6777FF;
+    color: white;
+    padding: 5px 10px;
+  }
+  .price__text_time {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .price__text_pay {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .price_bottom {
+    bottom: -50px;
+  }
+}
+.subtitle__simulator {
+  font-size: 3em;
+  font-family: "Acrom";
+  font-weight: 700;
+  position: relative;
+  z-index: 2;
+}
 
-    .card-text_fly-program {
-        margin-top: 3%;
-    }
+.main__simulator {
+  text-align: center;
+  background-image: url("../img/paint.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 227px;
+  margin-bottom: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .btn_fly-program {
-        padding: 1% 6% 0 6%;
-    }
+.main__background_simulator {
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 68%;
+  right: 0%;
+  z-index: 0;
+}
 
-    .main__section_certificate {
-        min-height: 40rem;
-    }
+.main__colortext {
+  color: #6777FF;
+}
 
-    .main__subtitle_certificate {
-        font-size: 1.3em;
-    }
+.subtitle__trainer {
+  font-family: "Acrom";
+  font-size: 2.3em;
+  font-weight: 700;
+  color: #03008D;
+  margin-left: 11%;
+}
 
-    .main__table_second {
-        width: 40%;
-        min-height: 13rem;
-    }
+.main__img_trainer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  width: 100%;
+}
 
-    .table__header {
-        font-size: 1.1em;
-    }
+.main__background_trainer {
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 143%;
+  left: 0%;
+  z-index: 0;
+}
 
-    .table__cost_second,
-    .table__min_second {
-        font-size: 0.9em;
-        font-weight: 900;
-    }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Саша начало */
+  .subtitle__simulator {
+    font-size: 2.3em;
+  }
+  .main__background_simulator {
+    top: 100%;
+    width: 50%;
+  }
+  .main__background_trainer {
+    top: 120%;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .subtitle__simulator {
+    font-size: 1em;
+    padding: 5%;
+  }
+  .main__simulator {
+    background-size: cover;
+    margin-bottom: 15%;
+  }
+  .main__background_simulator {
+    display: none;
+  }
+  .subtitle__trainer {
+    font-size: 1.3em;
+  }
+  .main__img_trainer {
+    margin: 0 auto 20px 0;
+  }
+  .main__background_trainer {
+    top: 200%;
+    width: 20rem;
+  }
+}
+.main__section_fly-program {
+  background: url(../img/background_circles_fly-program.svg) top -250% center/100% no-repeat;
+}
 
-    /* Ильвина конец */
+.main__subtitle_fly-program {
+  margin-left: 12%;
+  font-family: "Acrom", sans-serif;
+  font-weight: 700;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  color: #03008D;
+}
 
-    /* Катя начало */
-    .main__list {
-        font-size: 1em;
-    }
+.pagination__fly-program {
+  margin: 3% auto 2% 11%;
+}
 
-    .main__content {
-        background-size: cover;
-        background-position: 30% 50%;
-    }
+.pagination__page-number {
+  font-family: "Datcub", sans-serif;
+  font-weight: 300;
+  font-size: larger;
+  color: #6777FF;
+}
 
-    .card__feedback_third {
-        display: none;
-    }
-    /* Катя конец */
+.pagination__page-flip,
+.pagination__page-number_dark {
+  color: #03008D;
+}
 
-    /* Ирина начало */
-.item__instructor img{
-    height: 20vh;
+.container_fly-program {
+  /* padding: 0 10% 0 0; */
+  margin-bottom: 10%;
+  /* margin-left: 12%; */
+}
+
+.card_fly-program {
+  width: 95%;
+  border: none;
+}
+
+.card-header:first-child {
+  border-radius: 30px 30px 0 0;
+}
+
+.card-header_fly-program {
+  padding: 5% 5% 4% 7%;
+  font-family: "Acrom", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: #6777FF;
+  color: #FFF;
+}
+
+.card-body_fly-program {
+  padding: 0;
+}
+
+.card-text_fly-program {
+  margin-top: 6%;
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  color: #000;
+}
+
+.btn_fly-program {
+  padding: 0 6% 1% 6%;
+  border-radius: 100px;
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 0.7em;
+  background-color: #6777FF;
+  color: #FFF;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main__subtitle_fly-program {
+    margin-left: 3%;
+    font-size: 1.5em;
+  }
+  .pagination__fly-program {
+    margin: 3% auto 2% 2%;
+  }
+  .container_fly-program {
+    margin-left: 1%;
+  }
+  .card-header_fly-program {
+    font-size: 1em;
+  }
+  .card-text_fly-program {
+    margin-top: 3%;
+  }
+  .btn_fly-program {
+    padding: 1% 6% 0 6%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main__subtitle_fly-program {
+    margin-left: 3%;
+    font-size: 1.3em;
+  }
+  .pagination__fly-program {
+    margin: 3% auto 2% auto;
+    font-size: 0.8em;
+  }
+  .container_fly-program {
+    margin-left: 4%;
+    /* margin-bottom: -4%; */
+  }
+  .card__fly-program_dubai {
+    display: none;
+  }
+  .card-header_fly-program {
+    font-size: 1.1em;
+  }
+  .card-text_fly-program {
+    margin-top: 2%;
+  }
+  .btn_fly-program {
+    padding: 1% 6% 0 6%;
+  }
+}
+.main__section_certificate {
+  background: url(../img/background_certificate.png) 0% 0%/100% no-repeat;
+  position: relative;
+  min-height: 60rem;
+  padding-top: 6%;
+  text-transform: uppercase;
+}
+
+.main__section-man {
+  background: url(../img/dad_son_background.svg) 0% 0%/100% no-repeat;
+  position: absolute;
+  top: 4%;
+  left: 7%;
+  width: 45%;
+  min-height: 55rem;
+}
+
+.main__subtitle_certificate {
+  margin: 15% 15% 1% 47%;
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 1.7em;
+  color: white;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main__section_certificate {
+    min-height: 40rem;
+  }
+  .main__subtitle_certificate {
+    font-size: 1.3em;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main__section_certificate {
+    background: url(../img/background_mobile_certificate.png) top 40% center/100% no-repeat;
+    min-height: 45rem;
+  }
+  .main__section-man {
+    display: none;
+  }
+  .main__subtitle_certificate {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.2em;
+    color: #03008D;
+  }
+}
+.main__subtitle_plane {
+  text-align: center;
+  padding-top: 8%;
+  font-family: "Acrom", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  color: #03008D;
+}
+
+.container__plane {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main__img-boeing {
+  width: 50%;
+}
+
+.main__img-airbus {
+  width: 50%;
+  padding-top: 3%;
+}
+
+.main__list {
+  list-style-type: none;
+  margin: 0 auto 3% 0;
+  display: flex;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.main__list_boeing {
+  flex-direction: column;
+  width: 45%;
+}
+
+.main__list_airbus {
+  flex-direction: column;
+  text-align: end;
+  width: 45%;
+}
+
+.list__item_boeing::before {
+  content: url("../img/dashPlane.svg");
+}
+
+.list__item_airbus::after {
+  content: url("../img/dashPlane.svg");
+}
+
+.list__item_airbus,
+.list__item_boeing {
+  margin-bottom: 5%;
+}
+
+.main__content {
+  background-image: url("../img/mainTextBackground.svg");
+  background-size: 100%;
+  background-position: 50% 10%;
+  background-repeat: no-repeat;
+  min-height: 20rem;
+}
+
+.main__text {
+  margin-left: 14%;
+  padding-top: 3%;
+  padding-right: 17%;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main__list {
+    font-size: 1em;
+  }
+  .main__content {
+    background-size: cover;
+    background-position: 30% 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main__subtitle_plane {
+    font-size: 1.3em;
+  }
+  .main__img-boeing {
+    height: auto;
+    max-width: 50%;
+  }
+  .main__img-airbus {
+    height: auto;
+    max-width: 50%;
+  }
+  .main__list {
+    width: 95%;
+    margin-bottom: 3%;
+    padding-left: 5%;
+    font-size: 0.8em;
+  }
+  .main__list_airbus {
+    display: none;
+  }
+  .list__item_boeing::before {
+    content: url("../img/line_mobile.svg");
+  }
+  .main__content {
+    background-image: url("../img/main_text_background_mobile.png");
+    min-height: 13rem;
+  }
+  .main__text {
+    font-size: 0.8em;
+  }
+}
+.main__subtitle_feedback {
+  padding-left: 11%;
+  margin: 4%;
+  font-family: "Acrom";
+  font-weight: 700;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  color: #03008D;
+}
+
+.card_feedback {
+  background-color: rgb(229, 229, 229);
+  border-radius: 1em;
+}
+
+.card_feedback {
+  height: 100%;
+}
+
+.card-text {
+  font-family: "Gilroy", Arial, sans-serif;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .card__feedback_third {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main__subtitle_feedback {
+    padding-left: 1%;
+    font-size: 1.3em;
+  }
+  .card_feedback {
+    font-size: 0.9em;
+  }
+  .card__feedback_second,
+.card__feedback_third {
+    display: none;
+  }
+}
+.main__subtitle_instructor {
+  padding-left: 11%;
+  margin: 4%;
+  font-family: "Acrom";
+  font-weight: 700;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  color: #03008D;
+}
+
+.all__instructors {
+  display: flex;
+  /* justify-content: space-around; */
+  width: 100%;
+  overflow: scroll;
 }
 
 .item__instructor {
+  background-color: #6777FF;
+  margin: 0px 15px 0px 15px;
+  border-radius: 20px;
+  height: 390px;
+}
+
+.item__instructor a {
+  color: white;
+}
+
+.container__instructor {
+  display: flex;
+  justify-content: center;
+}
+
+.name__instructor {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.description__instructor {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.name__instructor,
+.description__instructor {
+  margin-left: 20px;
+}
+
+.ticket__certificate {
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+}
+
+.ticket__butt button {
+  background-color: #6777FF;
+  color: white;
+  font-size: 44px;
+  border-radius: 25px;
+  width: 600px;
+  border: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .item__instructor img {
+    height: 20vh;
+  }
+  .item__instructor {
     background-color: #6777FF;
     margin: 0px 1px 0px 15px;
     border-radius: 20px;
     height: 100%;
-}
-.name__instructor{
+  }
+  .name__instructor {
     font-size: 15px;
     margin-left: 15px;
-}
-.description__instructor{
+  }
+  .description__instructor {
     font-size: 10px;
     margin-left: 15px;
-}
-
-.ticket__butt button{
+  }
+  .ticket__butt button {
     font-size: 20px;
     width: 300px;
+  }
 }
-.foto__vitrina{
+@media screen and (max-width: 767px) {
+  .item__instructor_second,
+.item__instructor_third,
+.item__instructor_fourth {
+    display: none;
+  }
+}
+.header__footer {
+  font-size: 25px;
+  color: black;
+}
+
+.main__footer {
+  border: 1px solid black;
+  /* display: flex; */
+  justify-content: center;
+  background-color: #6777FF;
+  height: 1700px;
+  border-radius: 40px 40px 0px 0px;
+}
+
+.main__subtitle_contacts {
+  padding-left: 11%;
+  margin: 4%;
+  font-family: "Acrom";
+  font-weight: 700;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #03008D;
+}
+
+.foto__vitrina {
+  margin-top: 54px;
+  background-image: url("../img/tft.png");
+  background-repeat: no-repeat;
+  height: 440px;
+  background-size: cover;
+}
+
+.map__footer {
+  background-image: url("../img/map.png");
+  background-repeat: no-repeat;
+  height: 628px;
+}
+
+.footer__down {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 30px;
+}
+
+.footer__contacts {
+  text-align: left;
+  margin-top: 60px;
+  text-transform: uppercase;
+}
+
+.footer__logo {
+  text-align: right;
+}
+
+.footer__email {
+  margin-top: 100px;
+}
+
+.footer__phone {
+  margin-top: 60px;
+}
+
+.footer__company__logo {
+  margin-top: 60px;
+}
+
+.footer__subscribe {
+  margin-top: 100px;
+}
+
+.footer__social {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .foto__vitrina {
     height: 25vh;
-}
-.map__footer{
+  }
+  .map__footer {
     background-size: 109vh;
     height: 250px;
-}
-.footer__down{
+  }
+  .footer__down {
     font-size: 20px;
-}
-.footer__email img, .footer__phone img{
+  }
+  .footer__email img, .footer__phone img {
     width: 30px;
-}
-.footer__logo img{
+  }
+  .footer__logo img {
     width: 70px;
-}
-.main__footer{
+  }
+  .main__footer {
     height: 850px;
-}
-    
-    /* Ирина конец */
-
-}
-
-@media screen and (max-width: 767px) {
-
-    /* Саша начало */
-
-    /* Гамбургер меню начало*/
-
-    #menu__toggle {
-        opacity: 0;
-    }
-
-    .menu__btn {
-        display: flex;
-        align-items: center;
-        position: absolute;
-        top: 50px;
-        left: 82%;
-        width: 35px;
-        height: 35px;
-        cursor: pointer;
-        z-index: 1;
-    }
-
-    .menu__btn>span,
-    .menu__btn>span::before,
-    .menu__btn>span::after {
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        background-color: rgb(206, 193, 193);
-    }
-
-    .menu__btn>span::before {
-        content: '';
-        top: -8px;
-    }
-
-    .menu__btn>span::after {
-        content: '';
-        top: 8px;
-    }
-
-    .menu__box {
-        display: block;
-        position: fixed;
-        visibility: hidden;
-        top: 0;
-        left: -100%;
-        width: 300px;
-        height: 100%;
-        margin: 0;
-        padding: 80px 0;
-        list-style: none;
-        text-align: center;
-        background-color: #6777FF;
-        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-    }
-
-    .menu__item {
-        display: block;
-        padding: 12px 24px;
-        color: #333;
-        font-family: 'Roboto', sans-serif;
-        font-size: 20px;
-        font-weight: 600;
-        text-decoration: none;
-    }
-
-    .menu__item:hover {
-        background-color: #CFD8DC;
-    }
-
-    #menu__toggle:checked~.menu__btn>span {
-        transform: rotate(45deg);
-    }
-
-    #menu__toggle:checked~.menu__btn>span::before {
-        top: 0;
-        transform: rotate(0);
-    }
-
-    #menu__toggle:checked~.menu__btn>span::after {
-        top: 0;
-        transform: rotate(90deg);
-    }
-
-    #menu__toggle:checked~.menu__box {
-        visibility: visible;
-        left: 0;
-    }
-
-    .menu__btn>span::before {
-        content: '';
-        top: -8px;
-    }
-
-    /* Гамбургер меню конец*/
-
-    .subtitle__simulator {
-        font-size: 1em;
-        padding: 5%;
-    }
-
-    .main__simulator {
-        background-size: cover;
-        margin-bottom: 15%;
-    }
-
-    .main__background_simulator {
-        display: none;
-    }
-
-    .subtitle__trainer {
-        font-size: 1.3em;
-    }
-
-    .main__img_trainer {
-        margin: 0 auto;
-        width: 103%;
-        margin-bottom: 20%;
-    }
-
-    .main__background_trainer {
-        top: 200%;
-        width: 20rem;
-    }
-
-    .main__section_boeing {
-        min-height: 50rem;
-        display: block;
-        margin-left: 0%;
-    }
-
-    .main__textblock {
-        display: none;
-    }
-
-    .main__textblock_mobile {
-        display: flex;
-        justify-content: center;
-        z-index: 4;
-        padding-top: 100%;
-        gap: 15px;
-    }
-
-    .main__subtitle_you-mobile {
-        margin-left: -3%;
-        font-size: 3em;
-        font-weight: 700;
-        color: #6777FF;
-        margin-bottom: -20%;
-    }
-
-    .main__subtitle_try-mobile {
-        font-size: 0.7em;
-        color: black;
-    }
-
-    .main__subtitle_manage-mobile {
-        font-size: 1.5em;
-        color: black;
-        margin-top: 8%;
-    }
-
-    .main__subtitle_jet-mobile {
-        font-size: 1.7em;
-        font-weight: 700;
-        color: #6777FF;
-        margin-top: -1.7rem;
-    }
-
-    .main__photoblock {
-        min-height: 40rem;
-        margin-top: 0%;
-    }
-
-    .nav__hamburger {
-        display: block;
-        position: relative;
-        min-height: 196px;
-    }
-
-    .nav {
-        display: none;
-    }
-
-    .nav__logo_hamburger {
-        position: absolute;
-        margin-left: 10%;
-        margin-top: 15%;
-    }
-
-    .main__table_boeing {
-        left: 5%;
-        width: 90%;
-        top: 79%;
-    }
-
-    .main__table_boeing-rotate {
-        display: none;
-    }
-
-    /* Саша конец */
-
-    /* Ильвина начало */
-    .main__subtitle_fly-program {
-        margin-left: 3%;
-        font-size: 1.3em;
-    }
-
-    .pagination__fly-program {
-        margin: 3% auto 2% auto;
-        font-size: 0.8em;
-    }
-
-    .container_fly-program {
-        margin-left: 4%;
-        margin-bottom: -4%;
-    }
-
-    .card__fly-program_dubai {
-        display: none;
-    }
-
-    .card-header_fly-program {
-        font-size: 1.1em;
-    }
-
-    .card-text_fly-program {
-        margin-top: 2%;
-    }
-
-    .btn_fly-program {
-        padding: 1% 6% 0 6%;
-    }
-
-    .main__section_certificate {
-        background: url(../img/background_mobile_certificate.png) top 40% center / 100% no-repeat;
-        min-height: 45rem;
-    }
-
-    .main__section-man { 
-        display: none;
-    }
-
-    .main__subtitle_certificate {
-        margin-left: 5%;
-        margin-right: 5%;
-
-        font-size: 1.2em;
-
-        color: #03008D;
-    }
-
-    .main__table_second {
-        width: 90%;
-        min-height: 15rem;
-        margin-left: 5%;
-        margin-top: 90%;
-    }
-
-    .table__header {
-        padding: 3% 2%;
-
-        font-size: 1em;
-    }
-
-    .table__cost_second,
-    .table__min_second {
-        font-size: 0.9em;
-        font-weight: 900;
-    }
-
-    /* Ильвина конец */
-
-    /* Катя начало */
-    .main__subtitle_plane {
-        font-size: 1.3em;
-    }
-
-    .main__img-boeing {
-        height: auto;
-        max-width: 50%
-    }
-
-    .main__img-airbus {
-        height: auto;
-        max-width: 50%;
-    }
-
-    .main__list {
-        width: 95%;
-        margin-bottom: 3%;
-        padding-left: 5%;
-
-        font-size: 0.8em;
-    }
-
-    .main__list_airbus {
-        display: none;
-    }
-
-    .list__item_boeing::before {
-        content: url('../img/line_mobile.svg');
-    }
-
-    .main__content {
-        background-image: url('../img/main_text_background_mobile.png');
-        min-height: 13rem;
-    }
-
-    .main__text {
-        font-size: 0.8em;
-    }
-
-    .main__subtitle_feedback {
-        padding-left: 1%;
-        font-size: 1.3em;
-    }
-
-    .card_feedback {
-        font-size: 0.9em;
-    }
-
-    .card__feedback_second,
-    .card__feedback_third {
-        display: none;
-    }
-
-    .item__instructor_second,
-    .item__instructor_third,
-    .item__instructor_fourth {
-        display: none;
-    }
-
-    /* Катя конец */
-
-    /* Ирина начало */
-    /* Ирина конец */
-}
+  }
+}/*# sourceMappingURL=style.css.map */

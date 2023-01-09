@@ -1,0 +1,59 @@
+.main__section_certificate {
+    background: url(../img/background_certificate.png) 0% 0% / 100% no-repeat;
+    position: relative;
+
+    min-height: 60rem;
+    padding-top: 6%;
+
+    text-transform: uppercase;
+}
+
+.main__section-man {
+    background: url(../img/dad_son_background.svg) 0% 0% / 100% no-repeat;
+    position: absolute;
+    top: 4%;
+    left: 7%;
+    width: 45%;
+    min-height: 55rem;
+}
+
+.main__subtitle_certificate {
+    margin: 15% 15% 1% 47%;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 600;
+    font-size: 1.7em;
+
+    color: white;
+}
+
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    .main__section_certificate {
+        min-height: 40rem;
+    }
+
+    .main__subtitle_certificate {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main__section_certificate {
+        background: url(../img/background_mobile_certificate.png) top 40% center / 100% no-repeat;
+        min-height: 45rem;
+    }
+
+    .main__section-man { 
+        display: none;
+    }
+
+    .main__subtitle_certificate {
+        margin-left: 5%;
+        margin-right: 5%;
+
+        font-size: 1.2em;
+
+        color: #03008D;
+    }
+
+}

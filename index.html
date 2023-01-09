@@ -15,123 +15,83 @@
 </head>
 
 <body>
-
-    <!-- Саша начало -->
     <header class="header">
         <nav class="nav">
-            <a id="top"></a>
-            <div class="nav__logo"><object type="image/svg+xml" data="assets/img/logo.svg" width="130">
-                    <img src="assets/img/logo.png" alt="логотип" width="130">
-                </object></div>
-            <div><a class="nav__menu" href="#trainer">ЧТО ТАКОЕ АВИАТРЕНАЖЕР?</a></div>
-            <div><a class="nav__menu" href="#fly-program">ГДЕ ЛЕТАТЬ?</a></div>
-            <div><a class="nav__menu" href="#certificate">ЦЕНЫ</a></div>
-            <div><a class="nav__menu" href="#feedback">ОТЗЫВЫ</a></div>
-            <div><a class="nav__menu" href="#instructor">ИНСТРУКТОРА</a></div>
-            <div><a class="nav__menu" href="#contacts">КОНТАКТЫ</a></div>
+            <div class="nav__logo">
+                <object type="image/svg+xml" data="assets/img/logo.svg" class="nav__img">
+                    <img src="assets/img/logo.png" alt="логотип">
+                </object>
+            </div>
+            <a class="nav__menu" href="#trainer">ЧТО ТАКОЕ АВИАТРЕНАЖЕР?</a>
+            <a class="nav__menu" href="#fly-program">ГДЕ ЛЕТАТЬ?</a>
+            <a class="nav__menu" href="#certificate">ЦЕНЫ</a>
+            <a class="nav__menu" href="#feedback">ОТЗЫВЫ</a>
+            <a class="nav__menu" href="#instructor">ИНСТРУКТОРА</a>
+            <a class="nav__menu" href="#contacts">КОНТАКТЫ</a>
             <div class="nav__contacts">
-                <div class="nav__menu nav__address">Москва, Автозаводская улица, д. 18<br />ТРЦ Ривьера, 3 этаж</div>
-                <div class="nav__menu nav__phone"><img class="nav__phone_img" src="assets/img/phone-icon.png"
-                        alt="phone" width="20">+7 (495)
-                    228-47-08
+                <div class="nav__address">Москва, Автозаводская улица, д. 18<br />ТРЦ Ривьера, 3 этаж</div>
+                <div class="nav__phone">
+                    <img class="nav__phone_img" src="assets/img/phone-icon.png" alt="phone">+7(495)228-47-08
                 </div>
             </div>
         </nav>
-       
-            <!-- Гамбургер меню начало-->
-            <nav class="nav__hamburger">
-                <div class="nav__logo_hamburger"><object type="image/svg+xml" data="assets/img/logo.svg" width="130">
+
+        <nav class="nav__hamburger">
+            <div class="nav__logo-hamburger">
+                <object type="image/svg+xml" data="assets/img/logo.svg" width="130">
                     <img src="assets/img/logo.png" alt="логотип" width="130">
-                </object></div>
+                </object>
+            </div>
             <input id="menu__toggle" type="checkbox" />
-                <label class="menu__btn" for="menu__toggle">
-                  <span></span>
-                </label>
-                <ul class="menu__box">
-                    <li><a class="nav__menu" href="#trainer">ЧТО ТАКОЕ АВИАТРЕНАЖЕР?</a></li>
-                    <li><a class="nav__menu" href="#fly-program">ГДЕ ЛЕТАТЬ?</a></li>
-                    <li><a class="nav__menu" href="#certificate">ЦЕНЫ</a></li>
-                    <li><a class="nav__menu" href="#feedback">ОТЗЫВЫ</a></li>
-                    <li><a class="nav__menu" href="#instructor">ИНСТРУКТОРА</a></li>
-                    <li><a class="nav__menu" href="#contacts">КОНТАКТЫ</a></li>
-                  </ul>
-                </div>
-            </nav>
-            <!-- Гамбургер меню конец -->
-
-
-       
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <ul class="menu__box">
+                <li><a class="nav__menu" href="#trainer">ЧТО ТАКОЕ АВИАТРЕНАЖЕР?</a></li>
+                <li><a class="nav__menu" href="#fly-program">ГДЕ ЛЕТАТЬ?</a></li>
+                <li><a class="nav__menu" href="#certificate">ЦЕНЫ</a></li>
+                <li><a class="nav__menu" href="#feedback">ОТЗЫВЫ</a></li>
+                <li><a class="nav__menu" href="#instructor">ИНСТРУКТОРА</a></li>
+                <li><a class="nav__menu" href="#contacts">КОНТАКТЫ</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main class="main">
-        <section class="main__section main__section_boeing">
-            <div class="main__textblock">
-                <h2 class="main__subtitle main__subtitle_boeing">
-                    <p class="main__subtitle_you">ВЫ</p>
-                    <p class="main__subtitle_try">ПРОБОВАЛИ</p>
-                    <p class="main__subtitle_manage">УПРАВЛЯТЬ</p>
-                    <p class="main__subtitle_jet">БОИНГОМ?</p>
-                </h2>
-
-            </div>
-
-            <div class="main__photoblock">
-                <div class="main__textblock_mobile">
-                    <div class="main__subtitle main__subtitle_boeing-mobile">
-                        <p class="main__subtitle_you-mobile">ВЫ</p>
-                        <p class="main__subtitle_try-mobile">ПРОБОВАЛИ</p>
+        <section class="main__presentation">
+            <div class="main__shading">
+                <div class="main__banner">
+                    <div class="main__banner-top">
+                        <p class="main__subtitle_you">ВЫ</p>
+                        <p class="main__subtitle_try">ПРОБОВАЛИ</p>
                     </div>
-                    <div class="main__subtitle main__subtitle_boeing-mobile2">
-                        <p class="main__subtitle_manage-mobile">УПРАВЛЯТЬ</p>
-                        <p class="main__subtitle_jet-mobile">БОИНГОМ?</p>
+                    <div class="main__banner-bottom">
+                        <h1 class="main__subtitle_manage">УПРАВЛЯТЬ</h1>
+                        <p class="main__subtitle_jet">БОИНГОМ?</p>
                     </div>
-
                 </div>
-                <img src="assets/img/gradient.png" class="main__gradient-block" alt="gradient">
-                <table class="main__table main__table_boeing">
-                    <thead>
-                        <tr>
-                            <th class="table__header_boeing" colspan="2">Подарочные сертификаты</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="table__row_boeing">
-                            <td class="table__min">30 мин</td>
-                            <td class="table__cost">5000 - 00</td>
-                        </tr>
-                        <tr class="table__row_boeing">
-                            <td class="table__min">60 мин</td>
-                            <td class="table__cost">9000 - 00</td>
-                        </tr>
-                        <tr>
-                            <td class="table__min">120 мин</td>
-                            <td class="table__cost">18000 - 00</td>
-                        </tr>
-                    </tbody>
-                </table>
 
-                <table class="main__table main__table_boeing-rotate">
-                    <thead>
-                        <tr>
-                            <th class="table__header_boeing-rotate" colspan="3">Подарочные сертификаты</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="table__row_boeing-rotate">
-                            <td class="table__min-rotate">30 мин</td>
-                            <td class="table__min-rotate">60 мин</td>
-                            <td class="table__min-rotate table__border-rotate">120 мин</td>
-                        </tr>
-                        <tr class="table__row_boeing-rotate">
-                            <td class="table__cost-rotate">5000 - 00</td>
-                            <td class="table__cost-rotate">9000 - 00</td>
-                            <td class="table__cost-rotate table__border-rotate">18000 - 00</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <article class="price">
+                    <div class="price__text price__text_title">Подарочные сертификаты</div>
+                    <div class="price__wrap">
+                        <div class="price__item">
+                            <div class="price__text price__text_time">30 мин</div>
+                            <div class="price__text price__text_pay">5000 - 00</div>
+                        </div>
+                        <div class="price__item">
+                            <div class="price__text price__text_time">60 мин</div>
+                            <div class="price__text price__text_pay">9000 - 00</div>
+                        </div>
+                        <div class="price__item">
+                            <div class="price__text price__text_time">90 мин</div>
+                            <div class="price__text price__text_pay">18000 - 00</div>
+                        </div>
+
+                    </div>
+                </article>
             </div>
-
         </section>
+
         <section class="main__section main__simulator">
             <h2 class="main__subtitle subtitle__simulator">АВИАТРЕНАЖЕРЫ <span class="main__colortext">BOEING 737</span>
                 И <span class="main__colortext">AIRBUS 320</span> <br /> НА ПОДВИЖНОЙ
@@ -141,13 +101,13 @@
         </section>
         <section class="main__section main__trainer" id="trainer">
             <h2 class="main__subtitle subtitle__trainer">ЧТО ТАКОЕ АВИАТРЕНАЖЕР?</h2>
-            <img src="assets/img/trainer-background.jpg" class="main__img_trainer" alt="trainer" width="70%">
+            <img src="assets/img/trainer-background.jpg" class="main__img_trainer" alt="trainer">
             <div class="main__background_trainer"><img src="assets/img/background_trainer.png"
                     class="main__background_trainer" alt="circles"></div>
         </section>
-        <!-- Саша конец -->
 
-        <!-- Ильвина начало-->
+
+
         <section class="main__section main__section_fly-program" id="fly-program">
             <h2 class="main__subtitle main__subtitle_fly-program">Куда можно летать?</h2>
 
@@ -207,32 +167,30 @@
             <div class="main__section-man"></div>
             <h2 class="main__subtitle main__subtitle_certificate">Сертификат на полет - лучший подарок для детей и
                 взрослых</h2>
+            <article class="price price_bottom">
+                <div class="price__text price__text_title price__text_bottom price__text_bottom-title">Подарочные
+                    сертификаты</div>
+                <div class="price__wrap price__wrap_bottom">
+                    <div class="price__item price__item_bottom">
+                        <div class="price__text price__text_time">30 мин</div>
+                        <div class="price__text price__text_pay">5000 - 00</div>
+                    </div>
+                    <div class="price__item price__item_bottom">
+                        <div class="price__text price__text_time">60 мин</div>
+                        <div class="price__text price__text_pay">9000 - 00</div>
+                    </div>
+                    <div class="price__item price__item_bottom">
+                        <div class="price__text price__text_time">60 мин</div>
+                        <div class="price__text price__text_pay">18000 - 00</div>
+                    </div>
 
-            <table class="main__table main__table_second">
-                <thead>
-                    <tr>
-                        <th class="table__header" colspan="2">Подарочные сертификаты</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="table__row">
-                        <td class="table__min table__min_second">30 мин</td>
-                        <td class="table__cost table__cost_second">5000 - 00</td>
-                    </tr>
-                    <tr class="table__row">
-                        <td class="table__min table__min_second">60 мин</td>
-                        <td class="table__cost table__cost_second">9000 - 00</td>
-                    </tr>
-                    <tr>
-                        <td class="table__min table__min_second">120 мин</td>
-                        <td class="table__cost table__cost_second">18000 - 00</td>
-                    </tr>
-                </tbody>
-            </table>
+                </div>
+
+            </article>
         </section>
-        <!-- Ильвина конец -->
 
-        <!-- Катя начало -->
+
+
         <section class="main__section main__section_plane">
             <h2 class="main__subtitle main__subtitle_plane">Чем отличается BOEING от AIRBUS?</h2>
             <div class="container__plane">
@@ -261,7 +219,10 @@
 
 
             <div class="main__content">
-                <p class="main__text">Несколько кругов вокруг одного из крупнейших аэропортов региона — Дубаи, во время полета вы сможете увидеть с высоты птичьего полета легендарный высочайший в мире небоскреб. Несколько кругов вокруг одного из крупнейших аэропортов региона — Дубаи, во время полета вы сможете увидеть с высоты птичьего полета легендарный высочайший в мире небоскреб...</p>
+                <p class="main__text">Несколько кругов вокруг одного из крупнейших аэропортов региона — Дубаи, во время
+                    полета вы сможете увидеть с высоты птичьего полета легендарный высочайший в мире небоскреб.
+                    Несколько кругов вокруг одного из крупнейших аэропортов региона — Дубаи, во время полета вы сможете
+                    увидеть с высоты птичьего полета легендарный высочайший в мире небоскреб...</p>
             </div>
         </section>
 
@@ -275,7 +236,10 @@
 
                                 <div class="card-body card_feedback">
                                     <img src="assets/img/leftFeedback.svg" class="card-img-top" alt="woman">
-                                    <p class="card-text">Огромное спасибо компании TFTAero за предоставленную возможность воспользоваться сертификатом. Получили огромное удовольствие от полёта, сын в восторге! Спасибо пилоту Алексею за инструктаж. Рекомендую друзьям и вам! И да, берите сразу сеанс от 1 часа.</p>
+                                    <p class="card-text">Огромное спасибо компании TFTAero за предоставленную
+                                        возможность воспользоваться сертификатом. Получили огромное удовольствие от
+                                        полёта, сын в восторге! Спасибо пилоту Алексею за инструктаж. Рекомендую друзьям
+                                        и вам! И да, берите сразу сеанс от 1 часа.</p>
                                 </div>
                             </div>
                         </div>
@@ -285,7 +249,10 @@
 
                                 <div class="card-body card_feedback">
                                     <img src="assets/img/middleFreedback.svg" class="card-img-top" alt="couple">
-                                    <p class="card-text">Большое спасибо инструктору Сергею. Подарила сыновьям 1 час полета и не пожалела. Позитивные эмоции, яркие впечатления , доброжелательность и коммуникабельность персонала. В общем, сюрприз удался. Спасибо. Рекомендую родителям взрослых детей.</p>
+                                    <p class="card-text">Большое спасибо инструктору Сергею. Подарила сыновьям 1 час
+                                        полета и не пожалела. Позитивные эмоции, яркие впечатления , доброжелательность
+                                        и коммуникабельность персонала. В общем, сюрприз удался. Спасибо. Рекомендую
+                                        родителям взрослых детей.</p>
                                 </div>
                             </div>
                         </div>
@@ -295,7 +262,11 @@
 
                                 <div class="card-body card_feedback">
                                     <img src="assets/img/rightFeedback.png" class="card-img-top" alt="people">
-                                    <p class="card-text">Меня в принципе сложно впечатлить, но вам это сделать удалось! Незабываемые ощущения, полное погружение, летал на Боинге 737. Сертификат на 1 час, за это время успел совершить два незабываемых полёта. Пролетел на огромном лайнере ПОД мостом реки Гудзон, в Нью-Йорке, а затем совершил грандиозный полет в Альпах, в грозу, во время турбулентности. </p>
+                                    <p class="card-text">Меня в принципе сложно впечатлить, но вам это сделать удалось!
+                                        Незабываемые ощущения, полное погружение, летал на Боинге 737. Сертификат на 1
+                                        час, за это время успел совершить два незабываемых полёта. Пролетел на огромном
+                                        лайнере ПОД мостом реки Гудзон, в Нью-Йорке, а затем совершил грандиозный полет
+                                        в Альпах, в грозу, во время турбулентности. </p>
                                 </div>
                             </div>
                         </div>
@@ -327,14 +298,11 @@
 
 
         </section>
-        <!-- Катя конец -->
 
-        <!-- Ирина начало -->
+
         <section class="main__section" id="instructor">
             <h2 class="main__subtitle_instructor">Наши инструктора</h2>
             <div class="container__instructor">
-                <!-- <div class="row">
-                    <div class="col-6"> -->
                 <div class="all__instructors">
                     <div class="item__instructor">
                         <img src="assets/img/ivan.png" alt="instructor photo">
@@ -371,7 +339,6 @@
                     <button onclick="window.location.href = '#';">ЗАКАЗАТЬ СЕРТИФИКАТ<br>ONLINE</button>
                 </div>
             </div>
-
         </section>
     </main>
 
@@ -418,7 +385,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
     </script>
-
 </body>
 
 </html>

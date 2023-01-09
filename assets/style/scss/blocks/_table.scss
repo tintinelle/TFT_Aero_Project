@@ -1,0 +1,202 @@
+.price {
+    max-width: 710px;
+    min-height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.price_bottom {
+    position: relative;
+    top: 0;
+    left: 750px;
+    }
+
+
+.price__item {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.price__item:nth-child(2){
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.price__wrap {
+    background-color: #E5E5E5;
+    padding: 0 33px;
+}
+
+.price__text {
+    font-family: 'Acrom';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 47px;
+    text-transform: uppercase;
+    padding: 36px 0 23px 0;
+}
+
+.price__text_title {
+    background-color:#6777FF;
+    color: white;
+    padding: 18px 0 7px 0;
+}
+
+.price__text_time {
+    font-weight: 800;
+    font-size: 47px;
+    line-height: 56px;
+    color: black;
+}
+
+.price__text_pay {
+    font-size: 47px;
+    line-height: 56px;
+    color: #03008D;
+}
+
+@media screen and (min-width:1120px) and (max-width: 1399px) {
+    .price {
+        max-width: 640px;
+    }
+
+    .price__text {
+        padding: 24px 0 32px 0;
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    .price__text_title {
+        padding: 18px 0 11px 0;
+    }
+
+    .price__text_time {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .price__text_pay {
+        font-size: 24px;
+        line-height: 29px;
+    }   
+}
+
+@media screen and (min-width:570px) and (max-width:1119px) {
+    .price {
+        max-width: 100%;
+        text-align: left;
+        position: relative;
+        top: 40px;
+    }
+
+    .price__item {
+        width: 100%;
+        display: block;
+        padding-left: 35px;
+    }
+
+    .price__item:nth-child(2) {
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .price__wrap {
+        background-color: #E5E5E5;
+        padding: 33px 0;
+        display: flex;
+    }
+
+    .price__text {
+        font-size: 36px;
+        line-height: 43px;
+        padding: 0px 0 20px 0;
+    }
+
+    .price__text_title {
+        padding: 18px 0 11px 45px;
+    }
+
+    .price__text_time {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .price__text_pay {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .price_bottom {
+        max-width: 343px;
+        left: 350px;
+    }
+    .price__text_bottom {
+        padding: 13px 0 20px 0;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .price__text_bottom-title {
+        padding: 12px 0 11px 18px;
+    }
+    .price__wrap_bottom {
+        display: block;
+        padding: 19px 33px ;
+    }
+    .price__item_bottom {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .price__item_bottom:nth-child(2) {
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-left: none;
+        border-right: none;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:569px) {
+    .price {
+        max-width: 90%;
+        min-width: 200px;
+        min-height: 40px;
+        position: absolute;
+        bottom: -200px;
+    }
+
+    .price__wrap {
+        background-color: #E5E5E5;
+        padding: 0 17px;
+    }
+
+    .price__text {
+        font-size: 24px;
+        line-height: 29px;
+        padding: 24px 0 15px 0;
+    }
+
+    .price__text_title {
+        background-color: #6777FF;
+        color: white;
+        padding: 5px 10px;
+    }
+
+    .price__text_time {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .price__text_pay {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .price_bottom{
+        bottom: -50px;
+    }
+}

@@ -1,0 +1,149 @@
+.main__presentation {
+    min-height: 1000px;
+    background-image: url('../img/man-background.jpg');
+    background-size: 65%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.main__shading {
+    min-height: 1000px;
+    background: linear-gradient(to right, white 35%, transparent 68% 30%);
+    z-index: 1;
+    padding-left: 226px;
+    position: relative;
+}
+
+.main__banner {
+    padding-top: 29px;
+    padding-bottom: 57px;
+}
+
+.main__banner-bottom {
+    padding-left: 3px;
+}
+.main__subtitle_you {
+    margin: 0;
+    font-size: 13em;
+    font-weight: 700;
+    color: #6777FF;
+    line-height: 1;
+}
+
+.main__subtitle_try {
+    font-size: 3em;
+    color: black;
+    margin: 0 0 0 9px;
+    line-height: 1;
+}
+
+.main__subtitle_manage {
+    font-size: 6em;
+    font-weight: normal;
+    color: black;
+    margin: 0;
+    line-height: 1;
+}
+
+.main__subtitle_jet {
+    font-size: 6em;
+    font-weight: 700;
+    color: #6777FF;
+    margin: 0;
+    line-height: 1;
+}
+
+@media screen and (min-width:1120px) and (max-width: 1399px) {
+    .main__presentation {
+        min-height: 700px;
+        background-size: 76%;
+    }
+    .main__shading {
+        min-height: 700px;
+        padding-left: 126px;
+    }
+}
+
+@media screen and (min-width:570px) and (max-width:1119px) {
+    .main__presentation {
+        min-height: 400px;
+        background-size: 76%;
+        background-position: top right;
+    }
+
+    .main__shading {
+        min-height: 400px;
+        padding-left: 0;
+    }
+
+    .main__banner {
+        padding-left: 15px;
+    }
+    .main__subtitle_you {
+        font-size: 9.8em;
+    }
+
+    .main__subtitle_try {
+        font-size: 2em;
+        margin: 0 0 0 6px;
+    }
+
+    .main__banner-bottom {
+        padding-left: 5px;
+    }
+
+    .main__subtitle_manage {
+        font-size: 4em;
+    }
+
+    .main__subtitle_jet {
+        font-size: 4em;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:569px) {
+
+    .main__presentation {
+        min-height: 350px;
+        background-size: cover;
+    }
+
+    .main__shading {
+        min-height: 350px;
+        background: linear-gradient(transparent 60%, white 99%);
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        padding:0;
+        flex-wrap: wrap;
+    }
+
+    .main__banner {
+        padding-left: 0;
+        padding-top: 0;
+        display: flex;
+    }
+
+    .main__banner-bottom {
+        padding-left: 5px;
+    }
+
+    .main__subtitle_you {
+        font-size: 3.5em;
+        line-height: 0.85;
+    }
+
+    .main__subtitle_try {
+        font-size: 0.8em;
+        margin: 5px 0 0 3px;
+    }
+
+    .main__subtitle_manage {
+        font-size: 2.1em;
+    }
+
+    .main__subtitle_jet {
+        font-size: 2.1em;
+    }
+    
+}

@@ -1,0 +1,98 @@
+.header__footer {
+    font-size: 25px;
+    color: black;
+}
+
+.main__footer {
+    border: 1px solid black;
+    /* display: flex; */
+    justify-content: center;
+    background-color: #6777FF;
+    height: 1700px;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.main__subtitle_contacts {
+    padding-left: 11%;
+    margin: 4%;
+    font-family: 'Acrom';
+    font-weight: 700;
+    font-size: 2em;
+
+    text-transform: uppercase;
+
+    color: #03008D;
+}
+
+.foto__vitrina {
+    margin-top: 54px;
+    background-image: url('../img/tft.png');
+    background-repeat: no-repeat;
+    height: 440px;
+    background-size: cover;
+}
+
+.map__footer {
+    background-image: url('../img/map.png');
+    background-repeat: no-repeat;
+    height: 628px;
+}
+
+.footer__down {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 30px;
+}
+
+.footer__contacts {
+    text-align: left;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+.footer__logo {
+    text-align: right;
+}
+
+.footer__email {
+    margin-top: 100px;
+}
+
+.footer__phone {
+    margin-top: 60px;
+}
+
+.footer__company__logo {
+    margin-top: 60px;
+}
+
+.footer__subscribe {
+    margin-top: 100px;
+}
+
+.footer__social {
+    margin-top: 60px;
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    .foto__vitrina{
+        height: 25vh;
+    }
+    .map__footer{
+        background-size: 109vh;
+        height: 250px;
+    }
+    .footer__down{
+        font-size: 20px;
+    }
+    .footer__email img, .footer__phone img{
+        width: 30px;
+    }
+    .footer__logo img{
+        width: 70px;
+    }
+    .main__footer{
+        height: 850px;
+    }
+}

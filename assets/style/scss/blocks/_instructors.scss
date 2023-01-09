@@ -1,0 +1,100 @@
+.main__subtitle_instructor {
+    padding-left: 11%;
+    margin: 4%;
+    font-family: 'Acrom';
+    font-weight: 700;
+    font-size: 2.3em;
+
+    text-transform: uppercase;
+
+    color: #03008D;
+}
+.all__instructors {
+    display: flex;
+    /* justify-content: space-around; */
+    width: 100%;
+    overflow: scroll;
+}
+
+.item__instructor {
+    background-color: #6777FF;
+    margin: 0px 15px 0px 15px;
+    border-radius: 20px;
+    height: 390px;
+}
+
+.item__instructor a {
+    color: white;
+}
+
+.container__instructor {
+    display: flex;
+    justify-content: center;
+}
+
+.name__instructor {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.description__instructor {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.name__instructor,
+.description__instructor {
+    margin-left: 20px;
+}
+
+
+.ticket__certificate {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+.ticket__butt button {
+    background-color: #6777FF;
+    color: white;
+    font-size: 44px;
+    border-radius: 25px;
+    width: 600px;
+    border: none;
+}
+
+
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    .item__instructor img{
+        height: 20vh;
+    }
+    
+    .item__instructor {
+        background-color: #6777FF;
+        margin: 0px 1px 0px 15px;
+        border-radius: 20px;
+        height: 100%;
+    }
+    .name__instructor{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    .description__instructor{
+        font-size: 10px;
+        margin-left: 15px;
+    }
+    
+    .ticket__butt button{
+        font-size: 20px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .item__instructor_second,
+    .item__instructor_third,
+    .item__instructor_fourth {
+        display: none;
+    }
+}
